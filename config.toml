@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "/"
 title = "welcome to Restaurantly website"
-# theme = "Restaurantly"
+theme = "Restaurantly"
 # post pagination
 paginate = "6"
 # post excerpt
