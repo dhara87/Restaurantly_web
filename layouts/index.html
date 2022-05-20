@@ -5,8 +5,8 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
         <div class="row">
             <div class="col-lg-8">
-                <h1>Welcome to <span>Restaurantly</span></h1>
-                <h2>Delivering great food for more than 18 years!</h2>
+                <h1>{{ .Params.banner_title }}</span></h1>
+                <h2>{{ .Params.banner_subtitle }}</h2>
 
                 <div class="btns">
                     <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
@@ -15,7 +15,7 @@
             </div>
             <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in"
                 data-aos-delay="200">
-                <a href="https://www.youtube.com/watch?v=GlrxcuEDyF8" class="glightbox play-btn"></a>
+                <a href="{{ .Params.banner_youtube_link }}" class="glightbox play-btn"></a>
             </div>
 
         </div>
@@ -31,31 +31,22 @@
             <div class="row">
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
                     <div class="about-img">
-                        <img src="/img/about.jpg" alt="">
+                        <img src="{{ .Params.about_image_url }}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                    <h3>{{ .Params.about_title }}</h3>
                     <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore
-                        magna aliqua.
+                        {{ .Params.about_subtitle }}
                     </p>
                     <ul>
-                        <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <li><i class="bi bi-check-circle"></i> {{ .Params.about_content_1 }}
                         </li>
-                        <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate
-                            velit.</li>
-                        <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu
-                            fugiat nulla pariatur.</li>
+                        <li><i class="bi bi-check-circle"></i> {{ .Params.about_content_2 }}</li>
+                        <li><i class="bi bi-check-circle"></i> {{ .Params.about_content_3 }}</li>
                     </ul>
                     <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
+                        {{ .Params.about_content_4 }}
                     </p>
                 </div>
             </div>
@@ -69,7 +60,7 @@
 
             <div class="section-title">
                 <h2>Why Us</h2>
-                <p>Why Choose Our Restaurant</p>
+                <p>{{ .Params.whyus_title }}</p>
             </div>
 
             <div class="row">
@@ -77,8 +68,8 @@
                 <div class="col-lg-4">
                     <div class="box" data-aos="zoom-in" data-aos-delay="100">
                         <span>01</span>
-                        <h4>Lorem Ipsum</h4>
-                        <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
+                        <h4>{{ .Params.name_1 }}</h4>
+                        <p>{{ .Params.content_1 }}
                         </p>
                     </div>
                 </div>
@@ -86,17 +77,16 @@
                 <div class="col-lg-4 mt-4 mt-lg-0">
                     <div class="box" data-aos="zoom-in" data-aos-delay="200">
                         <span>02</span>
-                        <h4>Repellat Nihil</h4>
-                        <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire
-                            leno para dest</p>
+                        <h4>{{ .Params.name_2 }}</h4>
+                        <p>{{ .Params.content_2 }}</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 mt-4 mt-lg-0">
                     <div class="box" data-aos="zoom-in" data-aos-delay="300">
                         <span>03</span>
-                        <h4> Ad ad velit qui</h4>
-                        <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis
+                        <h4> {{ .Params.name_3 }}</h4>
+                        <p>{{ .Params.content_3 }}
                         </p>
                     </div>
                 </div>
@@ -112,16 +102,16 @@
 
             <div class="section-title">
                 <h2>Menu</h2>
-                <p>Check Our Tasty Menu</p>
+                <p>{{ .Params.menu_title }}</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="menu-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-starters">Starters</li>
-                        <li data-filter=".filter-salads">Salads</li>
-                        <li data-filter=".filter-specialty">Specialty</li>
+                        <li data-filter="*" class="filter-active">{{ .Params.menu_filter_1 }}</li>
+                        <li data-filter=".filter-starters">{{ .Params.menu_filter_2 }}</li>
+                        <li data-filter=".filter-salads">{{ .Params.menu_filter_3 }}</li>
+                        <li data-filter=".filter-specialty">{{ .Params.menu_filter_4 }}</li>
                     </ul>
                 </div>
             </div>
@@ -129,92 +119,92 @@
             <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
                 <div class="col-lg-6 menu-item filter-starters">
-                    <img src="/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+                    <img src="{{ .Params.menu_item1_image }}" class="menu-img" alt="{{ .Params.item1_name }}">
                     <div class="menu-content">
-                        <a href="#">Lobster Bisque</a><span>$5.95</span>
+                        <a href="/">{{ .Params.item1_name }}</a><span>{{ .Params.item1_price }}</span>
                     </div>
                     <div class="menu-ingredients">
-                        Lorem, deren, trataro, filede, nerada
+                        {{ .Params.item1_ingredients }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-specialty">
-                    <img src="/img/menu/bread-barrel.jpg" class="menu-img" alt="">
+                    <img src="{{ .Params.menu_item2_image }}" class="menu-img" alt="{{ .Params.item2_name }}">
                     <div class="menu-content">
-                        <a href="#">Bread Barrel</a><span>$6.95</span>
+                        <a href="/">{{ .Params.item2_name }}</a><span>{{ .Params.item2_price }}</span>
                     </div>
                     <div class="menu-ingredients">
-                        Lorem, deren, trataro, filede, nerada
+                        {{ .Params.item2_ingredients }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-starters">
-                    <img src="/img/menu/cake.jpg" class="menu-img" alt="">
+                    <img src="{{ .Params.menu_item3_image }}" class="menu-img" alt="{{ .Params.item3_name }}">
                     <div class="menu-content">
-                        <a href="#">Crab Cake</a><span>$7.95</span>
+                        <a href="/">{{ .Params.item3_name }}</a><span>{{ .Params.item3_price }}</span>
                     </div>
                     <div class="menu-ingredients">
-                        A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+                        {{ .Params.item3_ingredients }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-salads">
-                    <img src="/img/menu/caesar.jpg" class="menu-img" alt="">
+                    <img src="{{ .Params.menu_item4_image }}" class="menu-img" alt="{{ .Params.item4_name }}">
                     <div class="menu-content">
-                        <a href="#">Caesar Selections</a><span>$8.95</span>
+                        <a href="/">{{ .Params.item4_name }}</a><span>{{ .Params.item4_price }}</span>
                     </div>
                     <div class="menu-ingredients">
-                        Lorem, deren, trataro, filede, nerada
+                        {{ .Params.item4_ingredients }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-specialty">
-                    <img src="/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+                    <img src="{{ .Params.menu_item5_image }}" class="menu-img" alt="{{ .Params.item5_name }}">
                     <div class="menu-content">
-                        <a href="#">Tuscan Grilled</a><span>$9.95</span>
+                        <a href="/">{{ .Params.item5_name }}</a><span>{{ .Params.item5_price }}</span>
                     </div>
                     <div class="menu-ingredients">
-                        Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+                        {{ .Params.item5_ingredients }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-starters">
-                    <img src="/img/menu/mozzarella.jpg" class="menu-img" alt="">
+                    <img src="{{ .Params.menu_item6_image }}" class="menu-img" alt="{{ .Params.item6_name }}">
                     <div class="menu-content">
-                        <a href="#">Mozzarella Stick</a><span>$4.95</span>
+                        <a href="/">{{ .Params.item6_name }}</a><span>{{ .Params.item6_price }}</span>
                     </div>
                     <div class="menu-ingredients">
-                        Lorem, deren, trataro, filede, nerada
+                        {{ .Params.item6_ingredients }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-salads">
-                    <img src="/img/menu/greek-salad.jpg" class="menu-img" alt="">
+                    <img src="{{ .Params.menu_item7_image }}" class="menu-img" alt="{{ .Params.item7_name }}">
                     <div class="menu-content">
-                        <a href="#">Greek Salad</a><span>$9.95</span>
+                        <a href="/">{{ .Params.item7_name }}</a><span>{{ .Params.item7_price }}</span>
                     </div>
                     <div class="menu-ingredients">
-                        Fresh spinach, crisp romaine, tomatoes, and Greek olives
-                    </div>
-                </div>
-
-                <div class="col-lg-6 menu-item filter-salads">
-                    <img src="/img/menu/spinach-salad.jpg" class="menu-img" alt="">
-                    <div class="menu-content">
-                        <a href="#">Spinach Salad</a><span>$9.95</span>
-                    </div>
-                    <div class="menu-ingredients">
-                        Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+                        {{ .Params.item7_ingredients }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-specialty">
-                    <img src="/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+                    <img src="{{ .Params.menu_item8_image }}" class="menu-img" alt="{{ .Params.item8_name }}">
                     <div class="menu-content">
-                        <a href="#">Lobster Roll</a><span>$12.95</span>
+                        <a href="/">{{ .Params.item8_name }}</a><span>{{ .Params.item8_price }}</span>
                     </div>
                     <div class="menu-ingredients">
-                        Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+                        {{ .Params.item8_ingredients }}
+                    </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-salads">
+                    <img src="{{ .Params.menu_item9_image }}" class="menu-img" alt="{{ .Params.item9_name }}">
+                    <div class="menu-content">
+                        <a href="/">{{ .Params.item9_name }}</a><span>{{ .Params.item9_price }}</span>
+                    </div>
+                    <div class="menu-ingredients">
+                        {{ .Params.item9_ingredients }}
                     </div>
                 </div>
 
@@ -229,26 +219,26 @@
 
             <div class="section-title">
                 <h2>Specials</h2>
-                <p>Check Our Specials</p>
+                <p>{{ .Params.specials_heading }}</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-3">
                     <ul class="nav nav-tabs flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Modi sit est</a>
+                            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">{{ .Params.special_item1_name }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Unde praesentium sed</a>
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">{{ .Params.special_item2_name }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Pariatur explicabo vel</a>
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">{{ .Params.special_item3_name }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Nostrum qui quasi</a>
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">{{ .Params.special_item4_name }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Iusto ut expedita aut</a>
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-5">{{ .Params.special_item5_name }}</a>
                         </li>
                     </ul>
                 </div>
@@ -257,80 +247,61 @@
                         <div class="tab-pane active show" id="tab-1">
                             <div class="row">
                                 <div class="col-lg-8 details order-2 order-lg-1">
-                                    <h3>Architecto ut aperiam autem id</h3>
-                                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila
-                                        parde sonata raqer a videna mareta paulona marka</p>
-                                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum
-                                        eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat
-                                        minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui
-                                        similique accusamus nostrum rem vero</p>
+                                    <h3>{{ .Params.special_item1_title }}</h3>
+                                    <p class="fst-italic">{{ .Params.special_item1_content1 }}</p>
+                                    <p>{{ .Params.special_item1_content2 }}</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="/img/specials-1.png" alt="" class="img-fluid">
+                                    <img src="{{ .Params.special_item1_image }}" alt="{{ .Params.special_item1_name }}" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="tab-2">
                             <div class="row">
                                 <div class="col-lg-8 details order-2 order-lg-1">
-                                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila
-                                        parde sonata raqer a videna mareta paulona marka</p>
-                                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et
-                                        reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit
-                                        ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna
-                                        desera vafle de nideran pal</p>
+                                    <h3>{{ .Params.special_item2_title }}</h3>
+                                    <p class="fst-italic">{{ .Params.special_item2_content1 }}</p>
+                                    <p>{{ .Params.special_item2_content2 }}</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="/img/specials-2.png" alt="" class="img-fluid">
+                                    <img src="{{ .Params.special_item2_image }}" alt="{{ .Params.special_item2_name }}" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="tab-3">
                             <div class="row">
                                 <div class="col-lg-8 details order-2 order-lg-1">
-                                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim
-                                        fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis
-                                        aut</p>
-                                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis
-                                        quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae
-                                        sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et
-                                        harum voluptatem optio quae</p>
+                                    <h3>{{ .Params.special_item3_title }}</h3>
+                                    <p class="fst-italic">{{ .Params.special_item3_content1 }}</p>
+                                    <p>{{ .Params.special_item3_content2 }}</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="/img/specials-3.png" alt="" class="img-fluid">
+                                    <img src="{{ .Params.special_item3_image }}" alt="{{ .Params.special_item3_name }}" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="tab-4">
                             <div class="row">
                                 <div class="col-lg-8 details order-2 order-lg-1">
-                                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas
-                                        iure porro quis delectus</p>
-                                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam
-                                        necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in
-                                        consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a
-                                        laborum inventore</p>
+                                    <h3>{{ .Params.special_item4_title }}</h3>
+                                    <p class="fst-italic">{{ .Params.special_item4_content1 }}</p>
+                                    <p>{{ .Params.special_item4_content2 }}</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="/img/specials-4.png" alt="" class="img-fluid">
+                                    <img src="{{ .Params.special_item4_image }}" alt="{{ .Params.special_item4_name }}" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="tab-5">
                             <div class="row">
                                 <div class="col-lg-8 details order-2 order-lg-1">
-                                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
+                                    <h3>{{ .Params.special_item5_title }}</h3>
+                                    <p class="fst-italic">{{ .Params.special_item5_content1 }}
                                     </p>
-                                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae
-                                        ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet.
-                                        Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                                    <p>{{ .Params.special_item5_content2 }}</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="/img/specials-5.png" alt="" class="img-fluid">
+                                    <img src="{{ .Params.special_item5_image }}" alt="{{ .Params.special_item5_name }}" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -347,7 +318,7 @@
 
             <div class="section-title">
                 <h2>Events</h2>
-                <p>Organize Your Events in our Restaurant</p>
+                <p>{{ .Params.events_title }}</p>
             </div>
 
             <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -356,30 +327,23 @@
                     <div class="swiper-slide">
                         <div class="row event-item">
                             <div class="col-lg-6">
-                                <img src="/img/event-birthday.jpg" class="img-fluid" alt="">
+                                <img src="{{ .Params.event1_image }}" class="img-fluid" alt="{{ .Params.event1_name }}">
                             </div>
                             <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                <h3>Birthday Parties</h3>
+                                <h3>{{ .Params.event1_name }}</h3>
                                 <div class="price">
-                                    <p><span>$189</span></p>
+                                    <p><span>{{ .Params.event1_price }}</span></p>
                                 </div>
                                 <p class="fst-italic">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore
-                                    magna aliqua.
+                                    {{ .Params.event1_content1 }}
                                 </p>
                                 <ul>
-                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat.</li>
-                                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in
-                                        voluptate velit.</li>
-                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat.</li>
+                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event1_content2 }}</li>
+                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event1_content3 }}</li>
+                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event1_content4 }}</li>
                                 </ul>
                                 <p>
-                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur
+                                    {{ .Params.event1_content5 }}
                                 </p>
                             </div>
                         </div>
@@ -388,30 +352,23 @@
                     <div class="swiper-slide">
                         <div class="row event-item">
                             <div class="col-lg-6">
-                                <img src="/img/event-private.jpg" class="img-fluid" alt="">
+                                <img src="{{ .Params.event2_image }}" class="img-fluid" alt="{{ .Params.event2_name }}">
                             </div>
                             <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                <h3>Private Parties</h3>
+                                <h3>{{ .Params.event2_name }}</h3>
                                 <div class="price">
-                                    <p><span>$290</span></p>
+                                    <p><span>{{ .Params.event2_price }}</span></p>
                                 </div>
                                 <p class="fst-italic">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore
-                                    magna aliqua.
+                                    {{ .Params.event2_content1 }}
                                 </p>
                                 <ul>
-                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat.</li>
-                                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in
-                                        voluptate velit.</li>
-                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat.</li>
+                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event2_content2 }}</li>
+                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event2_content3 }}</li>
+                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event2_content4 }}</li>
                                 </ul>
                                 <p>
-                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur
+                                    {{ .Params.event2_content5 }}
                                 </p>
                             </div>
                         </div>
@@ -420,30 +377,23 @@
                     <div class="swiper-slide">
                         <div class="row event-item">
                             <div class="col-lg-6">
-                                <img src="/img/event-custom.jpg" class="img-fluid" alt="">
+                                <img src="{{ .Params.event3_image }}" class="img-fluid" alt="{{ .Params.event3_name }}">
                             </div>
                             <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                <h3>Custom Parties</h3>
+                                <h3>{{ .Params.event3_name }}</h3>
                                 <div class="price">
-                                    <p><span>$99</span></p>
+                                    <p><span>{{ .Params.event3_price }}</span></p>
                                 </div>
                                 <p class="fst-italic">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore
-                                    magna aliqua.
+                                    {{ .Params.event3_content1 }}
                                 </p>
                                 <ul>
-                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat.</li>
-                                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in
-                                        voluptate velit.</li>
-                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat.</li>
+                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event3_content2 }}</li>
+                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event3_content3 }}</li>
+                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event3_content4 }}</li>
                                 </ul>
                                 <p>
-                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur
+                                    {{ .Params.event3_content5 }}
                                 </p>
                             </div>
                         </div>
@@ -521,7 +471,7 @@
 
             <div class="section-title">
                 <h2>Testimonials</h2>
-                <p>What they're saying about us</p>
+                <p>{{ .Params.testimonial_title }}</p>
             </div>
 
             <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -531,14 +481,12 @@
                         <div class="testimonial-item">
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                                rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                risus at semper.
+                                {{ .Params.testimonial1_content }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                            <h3>Saul Goodman</h3>
-                            <h4>Ceo &amp; Founder</h4>
+                            <img src="{{ .Params.testimonial1_image }}" class="testimonial-img" alt="{{ .Params.testimonial1_name }}">
+                            <h3>{{ .Params.testimonial1_name }}</h3>
+                            <h4>{{ .Params.testimonial1_designation }}</h4>
                         </div>
                     </div><!-- End testimonial item -->
 
@@ -546,14 +494,12 @@
                         <div class="testimonial-item">
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                                cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                                legam anim culpa.
+                                {{ .Params.testimonial2_content }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                            <h3>Sara Wilsson</h3>
-                            <h4>Designer</h4>
+                            <img src="{{ .Params.testimonial2_image }}" class="testimonial-img" alt="{{ .Params.testimonial2_name }}">
+                            <h3>{{ .Params.testimonial2_name }}</h3>
+                            <h4>{{ .Params.testimonial2_designation }}</h4>
                         </div>
                     </div><!-- End testimonial item -->
 
@@ -561,13 +507,12 @@
                         <div class="testimonial-item">
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam
-                                duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                {{ .Params.testimonial3_content }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                            <h3>Jena Karlis</h3>
-                            <h4>Store Owner</h4>
+                            <img src="{{ .Params.testimonial3_image }}" class="testimonial-img" alt="{{ .Params.testimonial3_name }}">
+                            <h3>{{ .Params.testimonial3_name }}</h3>
+                            <h4>{{ .Params.testimonial3_designation }}</h4>
                         </div>
                     </div><!-- End testimonial item -->
 
@@ -575,14 +520,12 @@
                         <div class="testimonial-item">
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat
-                                minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore
-                                labore illum veniam.
+                                {{ .Params.testimonial4_content }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                            <h3>Matt Brandon</h3>
-                            <h4>Freelancer</h4>
+                            <img src="{{ .Params.testimonial4_image }}" class="testimonial-img" alt="{{ .Params.testimonial4_name }}">
+                            <h3>{{ .Params.testimonial4_name }}</h3>
+                            <h4>{{ .Params.testimonial4_designation }}</h4>
                         </div>
                     </div><!-- End testimonial item -->
 
@@ -590,14 +533,12 @@
                         <div class="testimonial-item">
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
-                                veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
-                                culpa fore nisi cillum quid.
+                                {{ .Params.testimonial5_content }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                            <h3>John Larson</h3>
-                            <h4>Entrepreneur</h4>
+                            <img src="{{ .Params.testimonial5_image }}" class="testimonial-img" alt="{{ .Params.testimonial5_name }}">
+                            <h3>{{ .Params.testimonial5_name }}</h3>
+                            <h4>{{ .Params.testimonial5_designation }}</h4>
                         </div>
                     </div><!-- End testimonial item -->
 
@@ -614,7 +555,7 @@
         <div class="container" data-aos="fade-up">
             <div class="section-title">
                 <h2>Gallery</h2>
-                <p>Some photos from Our Restaurant</p>
+                <p>{{ .Params.gallery_title }}</p>
             </div>
         </div>
 
@@ -624,64 +565,64 @@
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+                        <a href="{{ .Params.gallery_image_url_1 }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ .Params.gallery_image_url_1 }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+                        <a href="{{ .Params.gallery_image_url_2 }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ .Params.gallery_image_url_2 }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="/img/gallery/gallery-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+                        <a href="{{ .Params.gallery_image_url_3 }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ .Params.gallery_image_url_3 }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="/img/gallery/gallery-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+                        <a href="{{ .Params.gallery_image_url_4 }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ .Params.gallery_image_url_4 }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="/img/gallery/gallery-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+                        <a href="{{ .Params.gallery_image_url_5 }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ .Params.gallery_image_url_5 }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="/img/gallery/gallery-6.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+                        <a href="{{ .Params.gallery_image_url_6 }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ .Params.gallery_image_url_6 }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="/img/gallery/gallery-7.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+                        <a href="{{ .Params.gallery_image_url_7 }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ .Params.gallery_image_url_7 }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="/img/gallery/gallery-8.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                            <img src="/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+                        <a href="{{ .Params.gallery_image_url_8 }}" class="gallery-lightbox" data-gall="gallery-item">
+                            <img src="{{ .Params.gallery_image_url_8 }}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -697,18 +638,18 @@
 
             <div class="section-title">
                 <h2>Chefs</h2>
-                <p>Our Proffesional Chefs</p>
+                <p>{{ .Params.chefs_title }}</p>
             </div>
 
             <div class="row">
 
                 <div class="col-lg-4 col-md-6">
                     <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                        <img src="/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+                        <img src="{{ .Params.chef_1_image_url }}" class="img-fluid" alt="{{ .Params.chef_1_name }}">
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4>Walter White</h4>
-                                <span>Master Chef</span>
+                                <h4>{{ .Params.chef_1_name }}</h4>
+                                <span>{{ .Params.chef_1_profile }}</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -722,11 +663,11 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
+                        <img src="{{ .Params.chef_2_image_url }}" class="img-fluid" alt="{{ .Params.chef_2_name }}">
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4>Sarah Jhonson</h4>
-                                <span>Patissier</span>
+                                <h4>{{ .Params.chef_2_name }}</h4>
+                                <span>{{ .Params.chef_2_profile }}</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -740,11 +681,11 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="member" data-aos="zoom-in" data-aos-delay="300">
-                        <img src="/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
+                        <img src="{{ .Params.chef_3_image_url }}" class="img-fluid" alt="{{ .Params.chef_3_name }}">
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4>William Anderson</h4>
-                                <span>Cook</span>
+                                <h4>{{ .Params.chef_3_name }}</h4>
+                                <span>{{ .Params.chef_3_profile }}</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>

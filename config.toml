@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "/"
 title = "welcome to Restaurantly website"
-theme = "Restaurantly"
+# theme = "Restaurantly"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -94,10 +94,10 @@ link = "plugins/js/main.js"
   URL = "/gallery"
   weight = 7
 
-  [[Languages.en.menu.main]]
-  name = "Drop Down"
-  URL = "/drop down"
-  weight = 8
+  # [[Languages.en.menu.main]]
+  # name = "Drop Down"
+  # URL = "/drop down"
+  # weight = 8
 
   [[Languages.en.menu.main]]
   name = "Contact"
