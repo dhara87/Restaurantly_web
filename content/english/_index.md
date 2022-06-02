@@ -104,7 +104,7 @@ special_item4_content2: Eaque consequuntur consequuntur libero expedita in
   voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum
   ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui
   veritatis aperiam quia a laborum inventore
-special_item5_image: /static/img/dosa-special.jpg
+special_item5_image: /img/dosa-special.jpg
 special_item5_name: Iusto ut expedita aut
 special_item5_title: Est eveniet ipsam sindera pad rone matrelat sando reda
 special_item5_content1: Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
