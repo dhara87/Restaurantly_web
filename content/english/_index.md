@@ -76,7 +76,7 @@ special_item1_content2: Et nobis maiores eius. Voluptatibus ut enim blanditiis
   atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae
   aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur
   dolorem quaerat quos qui similique accusamus nostrum rem vero
-special_item2_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcFO1Ad6bpwAFRLhDjXbO5UaXZVJDdvwj_Q&usqp=CAU
+special_item2_image: /img/specials-2.png
 special_item2_name: Unde praesentium sed
 special_item2_title: Et blanditiis nemo veritatis excepturi
 special_item2_content1: Qui laudantium consequatur laborum sit qui ad sapiente
@@ -85,7 +85,7 @@ special_item2_content2: Ea ipsum voluptatem consequatur quis est. Illum error
   ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque
   accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus
   lerode pakto madirna desera vafle de nideran pal
-special_item3_image: /img/specials-3.png
+special_item3_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ocoxN0JTzBssRE05bpehcrrHkIoe_1Yerw&usqp=CAU
 special_item3_name: Pariatur explicabo vel
 special_item3_title: Impedit facilis occaecati odio neque aperiam sit
 special_item3_content1: Eos voluptatibus quo. Odio similique illum id quidem non
