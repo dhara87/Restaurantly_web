@@ -95,7 +95,7 @@ special_item3_content2: Iure officiis odit rerum. Harum sequi eum illum corrupti
   culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi
   ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat
   sit ullam. Soluta et harum voluptatem optio quae
-special_item4_image: /img/specials-4.png
+special_item4_image: /static/img/dosa-special.jpg
 special_item4_name: Nostrum qui quasi
 special_item4_title: Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore
 special_item4_content1: Totam aperiam accusamus. Repellat consequuntur iure
