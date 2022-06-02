@@ -3,22 +3,25 @@ banner_title: Welcome to Restaurantly
 banner_subtitle: Delivering great food for more than 18 years!
 banner_youtube_link: https://www.youtube.com/watch?v=GlrxcuEDyF8
 about_image_url: /img/about.jpg
-about_title: dhara patel
-about_subtitle: good looking
-about_content_1: hi
-about_content_2: this is dhara patel
-about_content_3: your best friend
-about_content_4: forever
-whyus_title: Why Choose Our Restaurant
-name_1: Lorem Ipsum
-content_1: Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et
-  consectetur ducimus vero placeat
-name_2: Repellat Nihil
-content_2: Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis
-  dolor quod et vel dire leno para dest
-name_3: Ad ad velit qui
-content_3: Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt
-  debitis quo vel nam quis
+about_title: Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+about_subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+about_content_1: Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+about_content_2: Duis aute irure dolor in reprehenderit in voluptate
+about_content_3: Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+  aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro
+  dolore eu fugiat nulla pariatur.
+about_content_4: Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+  culpa qui officia deserunt mollit anim id est laborum
+whyus_title: Why Choose this
+name_1: dhara
+content_1: hello!
+name_2: sohil
+content_2: hello!
+name_3: Rohan
+content_3: Hello!
 menu_title: Check Our Tasty Menu
 menu_filter_1: All
 menu_filter_2: Starters
