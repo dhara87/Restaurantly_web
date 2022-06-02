@@ -85,7 +85,7 @@ special_item2_content2: Ea ipsum voluptatem consequatur quis est. Illum error
   ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque
   accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus
   lerode pakto madirna desera vafle de nideran pal
-special_item3_image: /img/kadi-rotla.jpg
+special_item3_image: /img/specials-3.png
 special_item3_name: Pariatur explicabo vel
 special_item3_title: Impedit facilis occaecati odio neque aperiam sit
 special_item3_content1: Eos voluptatibus quo. Odio similique illum id quidem non
@@ -95,7 +95,7 @@ special_item3_content2: Iure officiis odit rerum. Harum sequi eum illum corrupti
   culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi
   ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat
   sit ullam. Soluta et harum voluptatem optio quae
-special_item4_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl68A1UCZNE1Xc85PcYT3JJj7gO7u_xylelQ&usqp=CAU
+special_item4_image: /img/specials-4.png
 special_item4_name: Nostrum qui quasi
 special_item4_title: Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore
 special_item4_content1: Totam aperiam accusamus. Repellat consequuntur iure
@@ -104,7 +104,7 @@ special_item4_content2: Eaque consequuntur consequuntur libero expedita in
   voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum
   ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui
   veritatis aperiam quia a laborum inventore
-special_item5_image: /img/dosa-special.jpg
+special_item5_image: /img/specials-5.png
 special_item5_name: Iusto ut expedita aut
 special_item5_title: Est eveniet ipsam sindera pad rone matrelat sando reda
 special_item5_content1: Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
@@ -124,7 +124,7 @@ event1_content4: Ullamco laboris nisi ut aliquip ex ea commodo consequat.
 event1_content5: Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
   aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
   fugiat nulla pariatur
-event2_image: /img/event.jpg
+event2_image: /img/event-private.jpg
 event2_name: Private Parties
 event2_content1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -179,8 +179,8 @@ testimonial5_image: /img/testimonials/testimonials-5.jpg
 testimonial5_name: John Larson
 testimonial5_designation: Entrepreneur
 gallery_title: Some photos from Our Restaurant
-gallery_image_url_1: /img/download.jpg
-gallery_image_url_2: /img/gallery-9.jpg
+gallery_image_url_1: /img/gallery/gallery-1.jpg
+gallery_image_url_2: /img/gallery/gallery-2.jpg
 gallery_image_url_3: /img/gallery/gallery-3.jpg
 gallery_image_url_4: /img/gallery/gallery-4.jpg
 gallery_image_url_5: /img/gallery/gallery-5.jpg
@@ -191,7 +191,7 @@ chefs_title: Our Proffesional Chefs
 chef_1_image_url: /img/chefs/chefs-1.jpg
 chef_1_name: Walter White
 chef_1_profile: Master Chef
-chef_2_image_url: /img/img_20200214_145057.jpg
+chef_2_image_url: /img/chefs/chefs-2.jpg
 chef_2_name: Sarah Jhonson
 chef_2_profile: Patissier
 chef_3_image_url: /img/chefs/chefs-3.jpg
