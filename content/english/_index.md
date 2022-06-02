@@ -191,7 +191,7 @@ chefs_title: Our Proffesional Chefs
 chef_1_image_url: /img/chefs/chefs-1.jpg
 chef_1_name: Walter White
 chef_1_profile: Master Chef
-chef_2_image_url: /img/chefs/chefs-2.jpg
+chef_2_image_url: /img/img_20200214_145057.jpg
 chef_2_name: Sarah Jhonson
 chef_2_profile: Patissier
 chef_3_image_url: /img/chefs/chefs-3.jpg
