@@ -124,7 +124,7 @@ event1_content4: Ullamco laboris nisi ut aliquip ex ea commodo consequat.
 event1_content5: Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
   aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
   fugiat nulla pariatur
-event2_image: /img/event-private.jpg
+event2_image: /img/event.jpg
 event2_name: Private Parties
 event2_content1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua.
