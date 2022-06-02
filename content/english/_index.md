@@ -180,7 +180,7 @@ testimonial5_name: John Larson
 testimonial5_designation: Entrepreneur
 gallery_title: Some photos from Our Restaurant
 gallery_image_url_1: /img/download.jpg
-gallery_image_url_2: /img/gallery/gallery-2.jpg
+gallery_image_url_2: /img/gallery-9.jpg
 gallery_image_url_3: /img/gallery/gallery-3.jpg
 gallery_image_url_4: /img/gallery/gallery-4.jpg
 gallery_image_url_5: /img/gallery/gallery-5.jpg
