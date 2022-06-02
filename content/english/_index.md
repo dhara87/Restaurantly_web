@@ -76,7 +76,7 @@ special_item1_content2: Et nobis maiores eius. Voluptatibus ut enim blanditiis
   atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae
   aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur
   dolorem quaerat quos qui similique accusamus nostrum rem vero
-special_item2_image: /img/specials-2.png
+special_item2_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcFO1Ad6bpwAFRLhDjXbO5UaXZVJDdvwj_Q&usqp=CAU
 special_item2_name: Unde praesentium sed
 special_item2_title: Et blanditiis nemo veritatis excepturi
 special_item2_content1: Qui laudantium consequatur laborum sit qui ad sapiente
