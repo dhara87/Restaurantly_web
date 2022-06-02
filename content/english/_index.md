@@ -66,15 +66,16 @@ menu_item9_image: /img/menu/spinach-salad.jpg
 item9_name: Spinach Salad
 item9_price: $9.95
 item9_ingredients: Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
-specials_heading: Check Dhara Specials
-special_item1_image: /static/img/kadi-rotla.jpg
-special_item1_name: kadhi rotla
-special_item1_title: patel special
-special_item1_content1: |-
-  ghee
-  besan
-  chaas
-special_item1_content2: bajri atta
+specials_heading: Check Our Specials
+special_item1_image: /img/specials-1.png
+special_item1_name: Modi sit est
+special_item1_title: Architecto ut aperiam autem id
+special_item1_content1: Qui laudantium consequatur laborum sit qui ad sapiente
+  dila parde sonata raqer a videna mareta paulona marka
+special_item1_content2: Et nobis maiores eius. Voluptatibus ut enim blanditiis
+  atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae
+  aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur
+  dolorem quaerat quos qui similique accusamus nostrum rem vero
 special_item2_image: /img/specials-2.png
 special_item2_name: Unde praesentium sed
 special_item2_title: Et blanditiis nemo veritatis excepturi
