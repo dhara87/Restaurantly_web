@@ -152,7 +152,7 @@ testimonial1_content: Proin iaculis purus consequat sem cure digni ssim donec
   porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id,
   aliquam eget nibh et. Maecen aliquam, risus at semper.
 testimonial1_image: /img/img_20200214_145057.jpg
-testimonial1_name: Saul Goodman
+testimonial1_name: Dhara Patel
 testimonial1_designation: Ceo & Founder
 testimonial2_content: Export tempor illum tamen malis malis eram quae irure esse
   labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt
