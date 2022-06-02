@@ -85,7 +85,7 @@ special_item2_content2: Ea ipsum voluptatem consequatur quis est. Illum error
   ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque
   accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus
   lerode pakto madirna desera vafle de nideran pal
-special_item3_image: /static/img/kadi-rotla.jpg
+special_item3_image: /img/specials-3.png
 special_item3_name: Pariatur explicabo vel
 special_item3_title: Impedit facilis occaecati odio neque aperiam sit
 special_item3_content1: Eos voluptatibus quo. Odio similique illum id quidem non
