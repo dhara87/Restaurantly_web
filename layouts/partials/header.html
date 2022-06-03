@@ -11,9 +11,12 @@
 
 			<div class="languages d-none d-md-flex align-items-center">
 				<ul>
-					<li>En</li>
-					<li><a href="#">De</a></li>
+					{{ range $.Site.Home.AllTranslations }}
+					<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+					{{ end }}
 				</ul>
+					
+				
 			</div>
 		</div>
 	</div>

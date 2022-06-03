@@ -129,6 +129,12 @@ languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
+
+[Languages.gr]
+languageName = "Gr"
+languageCode = "el-GR"
+contentDir = "content/greek"
+weight = 2
 # copyright
 copyright = "COPYRIGHT © 2022 EDU MEETING CO., LTD. ALL RIGHTS RESERVED."
 browserviews = "This website is best viewed on IE 11+, Mozilla Firefox, Google"
