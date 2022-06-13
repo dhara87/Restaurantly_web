@@ -388,6 +388,29 @@ collections:
       - { label: "Chefs 3 Profile", name: "chef_3_profile", widget: "string" }
       - { label: "Chefs 3 Profile Greek", name: "chef_3_profile_gr", widget: "string" }
 
+    # contact us section
+      - { label: "Contact Us Heading", name: "contact_us_heading", widget: "string" }
+      - { label: "Contact Us Heading Greek", name: "contact_us_heading_gr", widget: "string" }
+      - { label: "Contact Us Title", name: "contact_us_title", widget: "string" }
+      - { label: "Contact Us Title Greek", name: "contact_us_title_gr", widget: "string" }
+      - { label: "Contact Us Location", name: "contact_us_location", widget: "string" }
+      - { label: "Contact Us Location Greek", name: "contact_us_location_gr", widget: "string" }
+      - { label: "Contact Us Open", name: "contact_us_open", widget: "string" }
+      - { label: "Contact Us Open Greek", name: "contact_us_open_gr", widget: "string" }
+      - { label: "Contact Us Hours", name: "contact_us_hours", widget: "string" }
+      - { label: "Contact Us Hours Greek", name: "contact_us_hours_gr", widget: "string" }
+      - { label: "Contact Us Email", name: "contact_us_email", widget: "string" }
+      - { label: "Contact Us Email Greek", name: "contact_us_email_gr", widget: "string" }
+      - { label: "Contact Call", name: "contact_call", widget: "string" }
+      - { label: "Contact Call Greek", name: "contact_call_gr", widget: "string" }
+      - { label: "Contact Name", name: "contact_name", widget: "string" }
+      - { label: "Contact Name Greek", name: "contact_name_gr", widget: "string" }
+      - { label: "Contact Email", name: "contact_email", widget: "string" }
+      - { label: "Contact Email Greek", name: "contact_email_gr", widget: "string" }
+      - { label: "Contact Subject", name: "contact_subject", widget: "string" }
+      - { label: "Contact Subject Greek", name: "contact_subject_gr", widget: "string" }
+      - { label: "Contact Message", name: "contact_msg", widget: "string" }
+      - { label: "Contact Message Greek", name: "contact_msg_gr", widget: "string" }
 
   
 

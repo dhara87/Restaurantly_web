@@ -21,8 +21,6 @@ unsafe= true
 ############################# Plugins ##############################
 
 # CSS Plugins
-# [[params.plugins.css]]
-# link = "plugins/css/opensans.css" 
 [[params.plugins.css]]
 link = "plugins/css/animate.min.css" 
 [[params.plugins.css]]
@@ -94,18 +92,35 @@ link = "plugins/js/main.js"
   URL = "/gallery"
   weight = 7
 
-  # [[Languages.en.menu.main]]
-  # name = "Drop Down"
-  # URL = "/drop down"
-  # weight = 8
-
   [[Languages.en.menu.main]]
   name = "Contact"
   URL = "/contact"
-  weight = 9
+  weight = 8
 
 
 #################### default parameters ################################
+
+# [[params.ourservices]]
+# name = "Web Design"
+# link = "#"
+
+# [[params.products]]
+# name = "Web Development"
+# link = "#"
+
+# [[params.products]]
+# name = "Product Management"
+# link = "#"
+
+# [[params.products]]
+# name = "Marketing"
+# link = "#"
+
+# [[params.products]]
+# name = "Graphic Design"
+# link = "#"
+
+
 [params]
 logo = "/images/logo.png"
 # Meta data
@@ -114,7 +129,7 @@ author = ""
 # copyright
 copyright = "© Copyright Restaurantly. All Rights Reserved"
 designdevelop = "Designed & Developed by : [atcults](https://atcults.com/)"
-address = "A108 Adam Street NY 535022, USA"
+footer_address = "A108 Adam Street NY 535022, USA"
 clock = ""
 phone = "+1 5589 55488 55"
 facebook = ""

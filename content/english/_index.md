@@ -250,7 +250,6 @@ confirm_msg : Your booking request was sent. We will call back or send an Email 
 confirm_msg_gr : Greek Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!
 button_text: Book a Table
 button_text_gr: Greek Book a Table
-
 testimonial_heading: Testimonials
 testimonial_heading_gr: Greek Testimonials
 testimonial_title: What they're saying about us
@@ -341,6 +340,25 @@ contact_us_heading: Contact
 contact_us_heading_gr: Contact Greek
 contact_us_title: Contact Us
 contact_us_title_gr: Contact Us Greek
+contact_us_location: A108 Adam Street, New York, NY 535022
+contact_us_location_gr: A108 Adam Street, New York, NY 535022
+contact_us_open: Monday-Saturday
+contact_us_open_gr: Monday-Saturday
+contact_us_hours: 11:00 AM - 23:00 PM
+contact_us_hours_gr: 11:00 AM - 23:00 PM
+contact_us_email: info@example.com
+contact_us_email_gr: info@example.com
+contact_call: +1 5589 55488 55s
+contact_call_gr: +1 5589 55488 55s
+contact_name: Your Name
+contact_name_gr: Your Name
+contact_email: Your Email
+contact_email_gr: Your Email
+contact_subject: Subject
+contact_subject_gr: Subject
+contact_msg: Message
+contact_msg_gr: Message
+
 draft: false
 
 ---
