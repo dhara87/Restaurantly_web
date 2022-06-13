@@ -164,7 +164,7 @@ about_content_4_gr: Greek Ullamco laboris nisi ut aliquip ex ea commodo
   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
   proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-whyus_title_gr: Greek Why Choose us
+whyus_title_gr: Greek Why Choose Our Restaurant
 name_1_gr: Greek Lorem Ipsum
 name_2_gr: Greek Repellat Nihil
 content_2: Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis
