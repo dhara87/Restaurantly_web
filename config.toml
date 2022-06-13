@@ -125,13 +125,13 @@ email = "info@example.com"
 
 ################################### English language #####################################
 [Languages.en]
-languageName = "En"
+languageName = "en"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 
 [Languages.gr]
-languageName = "Gr"
+languageName = "gr"
 languageCode = "el-GR"
 contentDir = "content/greek"
 weight = 2

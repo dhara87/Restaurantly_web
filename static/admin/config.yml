@@ -10,46 +10,77 @@ collections:
     fields: # The fields each document in this collection have
    
     # banner
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Banner Title", name: "banner_title", widget: "string" }
+      - { label: "Banner Title Greek", name: "banner_title_gr", widget: "string" }
       - { label: "Banner Sub Title", name: "banner_subtitle", widget: "string" }
+      - { label: "Banner Sub Title Greek", name: "banner_subtitle_gr", widget: "string" }
       - { label: "Banner YouTube Link", name: "banner_youtube_link", widget: "string" }
+      - { label: "Banner YouTube Link Greek", name: "banner_youtube_link_gr", widget: "string" }
    
     # about
       - { label: "About image URL", name: "about_image_url", widget: "image" }
+      - { label: "About image URL Greek", name: "about_image_url_gr", widget: "image" }
       - { label: "About Title", name: "about_title", widget: "string" }
+      - { label: "About Title Greek", name: "about_title_gr", widget: "string" }
       - { label: "About Sub Title", name: "about_subtitle", widget: "string" }
+      - { label: "About Sub Title Greek", name: "about_subtitle_gr", widget: "string" }
       - { label: "About Content 1", name: "about_content_1", widget: "text" }
+      - { label: "About Content 1 Greek", name: "about_content_1_gr", widget: "text" }
       - { label: "About Content 2", name: "about_content_2", widget: "text" }
+      - { label: "About Content 2 Greek", name: "about_content_2_gr", widget: "text" }
       - { label: "About Content 3", name: "about_content_3", widget: "text" }
+      - { label: "About Content 3 Greek", name: "about_content_3_gr", widget: "text" }
       - { label: "About Content 4", name: "about_content_4", widget: "text" }
+      - { label: "About Content 4 Greek", name: "about_content_4_gr", widget: "text" }
    
     # why us
       - { label: "Why_Us Title", name: "whyus_title", widget: "string" }
+      - { label: "Why_Us Title Greek", name: "whyus_title_gr", widget: "string" }
       - { label: "Name 1", name: "name_1", widget: "string" }
+      - { label: "Name 1 Greek", name: "name_1_gr", widget: "string" }
       - { label: "Content 1", name: "content_1", widget: "text" }
+      - { label: "Content 1 Greek", name: "content_1_gr", widget: "text" }
       - { label: "Name 2", name: "name_2", widget: "string" }
+      - { label: "Name 2 Greek", name: "name_2_gr", widget: "string" }
       - { label: "Content 2", name: "content_2", widget: "text" }
+      - { label: "Content 2 Greek", name: "content_2_gr", widget: "text" }
       - { label: "Name 3", name: "name_3", widget: "string" }
+      - { label: "Name 3 Greek", name: "name_3_gr", widget: "string" }
       - { label: "Content 3", name: "content_3", widget: "text" }
+      - { label: "Content 3 Greek", name: "content_3_gr", widget: "text" }
     
     # menu
       - { label: "Menu Title", name: "menu_title", widget: "string" }
+      - { label: "Menu Title Greek", name: "menu_title_gr", widget: "string" }
       - { label: "Menu Filter Name 1", name: "menu_filter_1", widget: "string" }
+      - { label: "Menu Filter Name 1 Greek", name: "menu_filter_1_gr", widget: "string" }
       - { label: "Menu Filter Name 2", name: "menu_filter_2", widget: "string" }
+      - { label: "Menu Filter Name 2 Greek", name: "menu_filter_2_gr", widget: "string" }
       - { label: "Menu Filter Name 3", name: "menu_filter_3", widget: "string" }
+      - { label: "Menu Filter Name 3 Greek", name: "menu_filter_3_gr", widget: "string" }
       - { label: "Menu Filter Name 4", name: "menu_filter_4", widget: "string" }
+      - { label: "Menu Filter Name 4 Greek", name: "menu_filter_4_gr", widget: "string" }
     
     # menu Items
         # item 1
       - { label: "Menu Item 1 image", name: "menu_item1_image", widget: "image" }
+      - { label: "Menu Item 1 image Greek", name: "menu_item1_image_gr", widget: "image" }
       - { label: "Item 1 Name", name: "item1_name", widget: "string" }
+      - { label: "Item 1 Name Greek", name: "item1_name_gr", widget: "string" }
       - { label: "Item 1 Price", name: "item1_price", widget: "string" }
+      - { label: "Item 1 Price Greek", name: "item1_price_gr", widget: "string" }
       - { label: "Item 1 Ingredients", name: "item1_ingredients", widget: "text" }
+      - { label: "Item 1 Ingredients Greek", name: "item1_ingredients_gr", widget: "text" }
         # item 2
       - { label: "Menu Item 2 image", name: "menu_item2_image", widget: "image" }
+      - { label: "Menu Item 2 image Greek", name: "menu_item2_image_gr", widget: "image" }
       - { label: "Item 2 Name", name: "item2_name", widget: "string" }
+      - { label: "Item 2 Name Greek", name: "item2_name_gr", widget: "string" }
       - { label: "Item 2 Price", name: "item2_price", widget: "string" }
+      - { label: "Item 2 Price Greek", name: "item2_price_gr", widget: "string" }
       - { label: "Item 2 Ingredients", name: "item2_ingredients", widget: "text" }
+      - { label: "Item 2 Ingredients Greek", name: "item2_ingredients_gr", widget: "text" }
        # item 3
       - { label: "Menu Item 3 image", name: "menu_item3_image", widget: "image" }
       - { label: "Item 3 Name", name: "item3_name", widget: "string" }
@@ -57,351 +88,307 @@ collections:
       - { label: "Item 3 Ingredients", name: "item3_ingredients", widget: "text" }
         # item 4
       - { label: "Menu Item 4 image", name: "menu_item4_image", widget: "image" }
+      - { label: "Menu Item 4 image Greek", name: "menu_item4_image_gr", widget: "image" }
       - { label: "Item 4 Name", name: "item4_name", widget: "string" }
+      - { label: "Item 4 Name Greek", name: "item4_name_gr", widget: "string" }
       - { label: "Item 4 Price", name: "item4_price", widget: "string" }
+      - { label: "Item 4 Price Greek", name: "item4_price_gr", widget: "string" }
       - { label: "Item 4 Ingredients", name: "item4_ingredients", widget: "text" }
+      - { label: "Item 4 Ingredients Greek", name: "item4_ingredients_gr", widget: "text" }
        # item 5
       - { label: "Menu Item 5 image", name: "menu_item5_image", widget: "image" }
+      - { label: "Menu Item 5 image Greek", name: "menu_item5_image_gr", widget: "image" }
       - { label: "Item 5 Name", name: "item5_name", widget: "string" }
+      - { label: "Item 5 Name Greek", name: "item5_name_gr", widget: "string" }
       - { label: "Item 5 Price", name: "item5_price", widget: "string" }
+      - { label: "Item 5 Price Greek", name: "item5_price_gr", widget: "string" }
       - { label: "Item 5 Ingredients", name: "item5_ingredients", widget: "text" }
+      - { label: "Item 5 Ingredients Greek", name: "item5_ingredients_gr", widget: "text" }
        # item 6
       - { label: "Menu Item 6 image", name: "menu_item6_image", widget: "image" }
+      - { label: "Menu Item 6 image Greek", name: "menu_item6_image_gr", widget: "image" }
       - { label: "Item 6 Name", name: "item6_name", widget: "string" }
+      - { label: "Item 6 Name Greek", name: "item6_name_gr", widget: "string" }
       - { label: "Item 6 Price", name: "item6_price", widget: "string" }
+      - { label: "Item 6 Price Greek", name: "item6_price_gr", widget: "string" }
       - { label: "Item 6 Ingredients", name: "item6_ingredients", widget: "text" }
+      - { label: "Item 6 Ingredients Greek", name: "item6_ingredients_gr", widget: "text" }
         # item 7
       - { label: "Menu Item 7 image", name: "menu_item7_image", widget: "image" }
+      - { label: "Menu Item 7 image Greek", name: "menu_item7_image_gr", widget: "image" }
       - { label: "Item 7 Name", name: "item7_name", widget: "string" }
+      - { label: "Item 7 Name Greek", name: "item7_name_gr", widget: "string" }
       - { label: "Item 7 Price", name: "item7_price", widget: "string" }
+      - { label: "Item 7 Price Greek", name: "item7_price_gr", widget: "string" }
       - { label: "Item 7 Ingredients", name: "item7_ingredients", widget: "text" }
+      - { label: "Item 7 Ingredients Greek", name: "item7_ingredients_gr", widget: "text" }
        # item 8
       - { label: "Menu Item 8 image", name: "menu_item8_image", widget: "image" }
+      - { label: "Menu Item 8 image Greek", name: "menu_item8_image_gr", widget: "image" }
       - { label: "Item 8 Name", name: "item8_name", widget: "string" }
+      - { label: "Item 8 Name Greek", name: "item8_name_gr", widget: "string" }
       - { label: "Item 8 Price", name: "item8_price", widget: "string" }
+      - { label: "Item 8 Price Greek", name: "item8_price_gr", widget: "string" }
       - { label: "Item 8 Ingredients", name: "item8_ingredients", widget: "text" }
+      - { label: "Item 8 Ingredients Greek", name: "item8_ingredients_gr", widget: "text" }
        # item 9
       - { label: "Menu Item 9 image", name: "menu_item9_image", widget: "image" }
+      - { label: "Menu Item 9 image Greek", name: "menu_item9_image_gr", widget: "image" }
       - { label: "Item 9 Name", name: "item9_name", widget: "string" }
+      - { label: "Item 9 Name Greek", name: "item9_name_gr", widget: "string" }
       - { label: "Item 9 Price", name: "item9_price", widget: "string" }
+      - { label: "Item 9 Price Greek", name: "item9_price_gr", widget: "string" }
       - { label: "Item 9 Ingredients", name: "item9_ingredients", widget: "text" }
+      - { label: "Item 9 Ingredients Greek", name: "item9_ingredients_gr", widget: "text" }
     
     #special Items
+
+      - { label: "Special Title", name: "specials_title", widget: "string" }
+      - { label: "Special Title Greek", name: "specials_title_gr", widget: "string" }
       - { label: "Special Heading", name: "specials_heading", widget: "string" }
+      - { label: "Special Heading Greek", name: "specials_heading_gr", widget: "string" }
       # item 1
       - { label: "Special item 1 image", name: "special_item1_image", widget: "image" }
+      - { label: "Special item 1 image Greek", name: "special_item1_image_gr", widget: "image" }
       - { label: "Special Item 1 Name", name: "special_item1_name", widget: "string" }
+      - { label: "Special Item 1 Name Greek", name: "special_item1_name_gr", widget: "string" }
       - { label: "Special Item 1 Title", name: "special_item1_title", widget: "string" }
+      - { label: "Special Item 1 Title Greek", name: "special_item1_title_gr", widget: "string" }
       - { label: "Special Item 1 Content 1", name: "special_item1_content1", widget: "text" }
+      - { label: "Special Item 1 Content 1 Greek", name: "special_item1_content1_gr", widget: "text" }
       - { label: "Special Item 1 Content 2", name: "special_item1_content2", widget: "text" }
+      - { label: "Special Item 1 Content 2 Greek", name: "special_item1_content2_gr", widget: "text" }
       # item 2
       - { label: "Special item 2 image", name: "special_item2_image", widget: "image" }
+      - { label: "Special item 2 image Greek", name: "special_item2_image_gr", widget: "image" }
       - { label: "Special Item 2 Name", name: "special_item2_name", widget: "string" }
+      - { label: "Special Item 2 Name Greek", name: "special_item2_name_gr", widget: "string" }
       - { label: "Special Item 2 Title", name: "special_item2_title", widget: "string" }
+      - { label: "Special Item 2 Title Greek", name: "special_item2_title_gr", widget: "string" }
       - { label: "Special Item 2 Content 1", name: "special_item2_content1", widget: "text" }
+      - { label: "Special Item 2 Content 1 Greek", name: "special_item2_content1_gr", widget: "text" }
       - { label: "Special Item 2 Content 2", name: "special_item2_content2", widget: "text" }
+      - { label: "Special Item 2 Content 2 Greek", name: "special_item2_content2_gr", widget: "text" }
       # item 3
       - { label: "Special item 3 image", name: "special_item3_image", widget: "image" }
+      - { label: "Special item 3 image Greek", name: "special_item3_image_gr", widget: "image" }
       - { label: "Special Item 3 Name", name: "special_item3_name", widget: "string" }
+      - { label: "Special Item 3 Name Greek", name: "special_item3_name_gr", widget: "string" }
       - { label: "Special Item 3 Title", name: "special_item3_title", widget: "string" }
+      - { label: "Special Item 3 Title Greek", name: "special_item3_title_gr, widget: "string" }
       - { label: "Special Item 3 Content 1", name: "special_item3_content1", widget: "text" }
+      - { label: "Special Item 3 Content 1 Greek", name: "special_item3_content1_gr", widget: "text" }
       - { label: "Special Item 3 Content 2", name: "special_item3_content2", widget: "text" }
+      - { label: "Special Item 3 Content 2 Greek", name: "special_item3_content2_gr", widget: "text" }
       # item 4
       - { label: "Special item 4 image", name: "special_item4_image", widget: "image" }
+      - { label: "Special item 4 image Greek", name: "special_item4_image_gr", widget: "image" }
       - { label: "Special Item 4 Name", name: "special_item4_name", widget: "string" }
+      - { label: "Special Item 4 Name Greek", name: "special_item4_name_gr", widget: "string" }
       - { label: "Special Item 4 Title", name: "special_item4_title", widget: "string" }
+      - { label: "Special Item 4 Title Greek", name: "special_item4_title_gr", widget: "string" }
       - { label: "Special Item 4 Content 1", name: "special_item4_content1", widget: "text" }
+      - { label: "Special Item 4 Content 1 Greek", name: "special_item4_content1_gr", widget: "text" }
       - { label: "Special Item 4 Content 2", name: "special_item4_content2", widget: "text" }
+      - { label: "Special Item 4 Content 2 Greek", name: "special_item4_content2_gr", widget: "text" }
       # item 5
       - { label: "Special item 5 image", name: "special_item5_image", widget: "image" }
+      - { label: "Special item 5 image Greek", name: "special_item5_image_gr", widget: "image" }
       - { label: "Special Item 5 Name", name: "special_item5_name", widget: "string" }
+      - { label: "Special Item 5 Name Greek", name: "special_item5_name_gr", widget: "string" }
       - { label: "Special Item 5 Title", name: "special_item5_title", widget: "string" }
+      - { label: "Special Item 5 Title Greek", name: "special_item5_title_gr", widget: "string" }
       - { label: "Special Item 5 Content 1", name: "special_item5_content1", widget: "text" }
+      - { label: "Special Item 5 Content 1 Greek", name: "special_item5_content1_gr", widget: "text" }
       - { label: "Special Item 5 Content 2", name: "special_item5_content2", widget: "text" }
+      - { label: "Special Item 5 Content 2 Greek", name: "special_item5_content2_gr", widget: "text" }
 
     # events
       - { label: "Event Title", name: "events_title", widget: "string" }
+      - { label: "Event Title Greek", name: "events_title_gr", widget: "string" }
       # event 1
       - { label: "Event 1 image", name: "event1_image", widget: "image" }
+      - { label: "Event 1 image Greek", name: "event1_image_gr", widget: "image" }
       - { label: "Event 1 Name", name: "event1_name", widget: "string" }
+      - { label: "Event 1 Name Greek", name: "event1_name_gr", widget: "string" }
       - { label: "Event 1 Price", name: "event1_price", widget: "string" }
+      - { label: "Event 1 Price Greek", name: "event1_price_gr", widget: "string" }
       - { label: "Event 1 Content 1", name: "event1_content1", widget: "text" }
+      - { label: "Event 1 Content 1 Greek", name: "event1_content1_gr", widget: "text" }
       - { label: "Event 1 Content 2", name: "event1_content2", widget: "text" }
+      - { label: "Event 1 Content 2 Greek", name: "event1_content2_gr", widget: "text" }
       - { label: "Event 1 Content 3", name: "event1_content3", widget: "text" }
+      - { label: "Event 1 Content 3 Greek", name: "event1_content3_gr", widget: "text" }
       - { label: "Event 1 Content 4", name: "event1_content4", widget: "text" }
+      - { label: "Event 1 Content 4 Greek", name: "event1_content4_gr", widget: "text" }
       - { label: "Event 1 Content 5", name: "event1_content5", widget: "text" }
+      - { label: "Event 1 Content 5 Greek", name: "event1_content5_gr", widget: "text" }
       # event 2
       - { label: "Event 2 image", name: "event2_image", widget: "image" }
+      - { label: "Event 2 image Greek", name: "event2_image_gr", widget: "image" }
       - { label: "Event 2 Name", name: "event2_name", widget: "string" }
+      - { label: "Event 2 Name Greek", name: "event2_name_gr", widget: "string" }
       - { label: "Event 2 Price", name: "event2_price", widget: "string" }
+      - { label: "Event 2 Price Greek", name: "event2_price_gr", widget: "string" }
       - { label: "Event 2 Content 1", name: "event2_content1", widget: "text" }
+      - { label: "Event 2 Content 1 Greek", name: "event2_content1_gr", widget: "text" }
       - { label: "Event 2 Content 2", name: "event2_content2", widget: "text" }
+      - { label: "Event 2 Content 2 Greek", name: "event2_content2_gr", widget: "text" }
       - { label: "Event 2 Content 3", name: "event2_content3", widget: "text" }
+      - { label: "Event 2 Content 3 Greek", name: "event2_content3_gr", widget: "text" }
       - { label: "Event 2 Content 4", name: "event2_content4", widget: "text" }
+      - { label: "Event 2 Content 4 Greek", name: "event2_content4_gr", widget: "text" }
       - { label: "Event 2 Content 5", name: "event2_content5", widget: "text" }
+      - { label: "Event 2 Content 5 Greek", name: "event2_content5_gr", widget: "text" }
       # event 3
       - { label: "Event 3 image", name: "event3_image", widget: "image" }
+      - { label: "Event 3 image Greek", name: "event3_image_gr", widget: "image" }
       - { label: "Event 3 Name", name: "event3_name", widget: "string" }
+      - { label: "Event 3 Name Greek", name: "event3_name_gr", widget: "string" }
       - { label: "Event 3 Price", name: "event3_price", widget: "string" }
+      - { label: "Event 3 Price Greek", name: "event3_price_gr", widget: "string" }
       - { label: "Event 3 Content 1", name: "event3_content1", widget: "text" }
+      - { label: "Event 3 Content 1 Greek", name: "event3_content1_gr", widget: "text" }
       - { label: "Event 3 Content 2", name: "event3_content2", widget: "text" }
+      - { label: "Event 3 Content 2 Greek", name: "event3_content2_gr", widget: "text" }
       - { label: "Event 3 Content 3", name: "event3_content3", widget: "text" }
+      - { label: "Event 3 Content 3 Greek", name: "event3_content3_gr", widget: "text" }
       - { label: "Event 3 Content 4", name: "event3_content4", widget: "text" }
+      - { label: "Event 3 Content 4 Greek", name: "event3_content4_gr", widget: "text" }
       - { label: "Event 3 Content 5", name: "event3_content5", widget: "text" }
+      - { label: "Event 3 Content 5 Greek", name: "event3_content5_gr", widget: "text" }
   
+  # book a table
+      - { label: "Reservation Title", name: "Reservation_title", widget: "string" }
+      - { label: "Reservation Title Greek", name: "Reservation_title_gr", widget: "string" }
+      - { label: "Data Error Message", name: "data_msg", widget: "string" }
+      - { label: "Data Error Message Greek", name: "data_msg_gr", widget: "string" }
+      - { label: "Table Book Title", name: "table_book_title", widget: "string" }
+      - { label: "Table Book Title Greek", name: "table_book_title_gr", widget: "string" }
+      - { label: "Name Title Place Holder", name: "name_title_placeholder", widget: "string" }
+      - { label: "Name Title Place Holder Greek", name: "name_title_placeholder_gr", widget: "string" }
+      - { label: "Email Placeholder", name: "email_placeholder", widget: "string" }
+      - { label: "Email Placeholder Greek", name: "email_placeholder_gr", widget: "string" }
+      - { label: "Phone Placeholder", name: "phone_placeholder", widget: "string" }
+      - { label: "Phone Placeholder Greek", name: "phone_placeholder_gr", widget: "string" }
+      - { label: "Date Placeholder", name: "date_placeholder", widget: "string" }
+      - { label: "Date Placeholder Greek", name: "date_placeholder_gr", widget: "string" }
+      - { label: "Time Placeholder", name: "time_placeholder", widget: "string" }
+      - { label: "Time Placeholder Greek", name: "time_placeholder_gr", widget: "string" }
+      - { label: "People Placeholder", name: "people_placeholder", widget: "string" }
+      - { label: "People Placeholder Greek", name: "people_placeholder_gr", widget: "string" }
+      - { label: "Table Data Error Message", name: "table_data_msg", widget: "string" }
+      - { label: "Table Data Error Message Greek", name: "table_data_msg_gr", widget: "string" }
+      - { label: "Message Placeholder", name: "message_placeholder", widget: "string" }
+      - { label: "Message Placeholder Greek", name: "message_placeholder_gr", widget: "string" }
+      - { label: "Loading Message", name: "loading_msg", widget: "string" }
+      - { label: "Loading Message Greek", name: "loading_msg_gr", widget: "string" }
+      - { label: "Confirm Message", name: "confirm_msg", widget: "string" }
+      - { label: "Confirm Message Greek", name: "confirm_msg_gr", widget: "string" }
+      - { label: "Button Text", name: "button_text", widget: "string" }
+      - { label: "Button Text", name: "button_text_gr", widget: "string" }
+
   # testimonial
+      - { label: "Testimonial Heading", name: "testimonial_heading", widget: "string" }
+      - { label: "Testimonial Heading Greek", name: "testimonial_heading_gr", widget: "string" }
       - { label: "Testimonial Title", name: "testimonial_title", widget: "string" }
+      - { label: "Testimonial Title Greek", name: "testimonial_title_gr", widget: "string" }
       # content 1
       - { label: "Testimonial 1 Content", name: "testimonial1_content", widget: "text" }
+      - { label: "Testimonial 1 Content Greek", name: "testimonial1_content_gr", widget: "text" }
       - { label: "Testimonial 1 image", name: "testimonial1_image", widget: "image" }
+      - { label: "Testimonial 1 image Greek", name: "testimonial1_image_gr", widget: "image" }
       - { label: "Testimonial 1 Name", name: "testimonial1_name", widget: "string" }
+      - { label: "Testimonial 1 Name Greek", name: "testimonial1_name_gr", widget: "string" }
       - { label: "Testimonial 1 Designation", name: "testimonial1_designation", widget: "string" }
+      - { label: "Testimonial 1 Designation Greek", name: "testimonial1_designation_gr", widget: "string" }
       # content 2
       - { label: "Testimonial 2 Content", name: "testimonial2_content", widget: "text" }
+      - { label: "Testimonial 2 Content Greek", name: "testimonial2_content_gr", widget: "text" }
       - { label: "Testimonial 2 image", name: "testimonial2_image", widget: "image" }
+      - { label: "Testimonial 2 image Greek", name: "testimonial2_image_gr", widget: "image" }
       - { label: "Testimonial 2 Name", name: "testimonial2_name", widget: "string" }
+      - { label: "Testimonial 2 Name Greek", name: "testimonial2_name_gr", widget: "string" }
       - { label: "Testimonial 2 Designation", name: "testimonial2_designation", widget: "string" }
+      - { label: "Testimonial 2 Designation Greek", name: "testimonial2_designation_gr", widget: "string" }
       # content 3
       - { label: "Testimonial 3 Content", name: "testimonial3_content", widget: "text" }
+      - { label: "Testimonial 3 Content Greek", name: "testimonial3_content_gr", widget: "text" }
       - { label: "Testimonial 3 image", name: "testimonial3_image", widget: "image" }
+      - { label: "Testimonial 3 image Greek", name: "testimonial3_image_gr", widget: "image" }
       - { label: "Testimonial 3 Name", name: "testimonial3_name", widget: "string" }
+      - { label: "Testimonial 3 Name Greek", name: "testimonial3_name_gr", widget: "string" }
       - { label: "Testimonial 3 Designation", name: "testimonial3_designation", widget: "string" }
+      - { label: "Testimonial 3 Designation Greek", name: "testimonial3_designation_gr", widget: "string" }
       # content 4
       - { label: "Testimonial 4 Content", name: "testimonial4_content", widget: "text" }
+      - { label: "Testimonial 4 Content Greek", name: "testimonial4_content_gr", widget: "text" }
       - { label: "Testimonial 4 image", name: "testimonial4_image", widget: "image" }
+      - { label: "Testimonial 4 image Greek", name: "testimonial4_image_gr", widget: "image" }
       - { label: "Testimonial 4 Name", name: "testimonial4_name", widget: "string" }
+      - { label: "Testimonial 4 Name Greek", name: "testimonial4_name_gr", widget: "string" }
       - { label: "Testimonial 4 Designation", name: "testimonial4_designation", widget: "string" }
+      - { label: "Testimonial 4 Designation Greek", name: "testimonial4_designation_gr", widget: "string" }
       # content 5
       - { label: "Testimonial 5 Content", name: "testimonial5_content", widget: "text" }
+      - { label: "Testimonial 5 Content Greek", name: "testimonial5_content_gr", widget: "text" }
       - { label: "Testimonial 5 image", name: "testimonial5_image", widget: "image" }
+      - { label: "Testimonial 5 image Greek", name: "testimonial5_image_gr", widget: "image" }
       - { label: "Testimonial 5 Name", name: "testimonial5_name", widget: "string" }
+      - { label: "Testimonial 5 Name Greek", name: "testimonial5_name_gr", widget: "string" }
       - { label: "Testimonial 5 Designation", name: "testimonial5_designation", widget: "string" }
+      - { label: "Testimonial 5 Designation Greek", name: "testimonial5_designation_gr", widget: "string" }
       
     # Gallery Section
+      - { label: "Gallery Heading", name: "gallery_heading", widget: "string" }
+      - { label: "Gallery Heading Greek", name: "gallery_heading_gr", widget: "string" }
       - { label: "Gallery Title", name: "gallery_title", widget: "string" }
+      - { label: "Gallery Title Greek", name: "gallery_title_gr", widget: "string" }
       - { label: "Gallery image 1", name: "gallery_image_url_1", widget: "image" }
+      - { label: "Gallery image 1 Greek", name: "gallery_image_url_1_gr", widget: "image" }
       - { label: "Gallery image 2", name: "gallery_image_url_2", widget: "image" }
+      - { label: "Gallery image 2 Greek", name: "gallery_image_url_2_gr", widget: "image" }
       - { label: "Gallery image 3", name: "gallery_image_url_3", widget: "image" }
+      - { label: "Gallery image 3 Greek", name: "gallery_image_url_3_gr", widget: "image" }
       - { label: "Gallery image 4", name: "gallery_image_url_4", widget: "image" }
+      - { label: "Gallery image 4 Greek", name: "gallery_image_url_4_gr", widget: "image" }
       - { label: "Gallery image 5", name: "gallery_image_url_5", widget: "image" }
+      - { label: "Gallery image 5 Greek", name: "gallery_image_url_5_gr", widget: "image" }
       - { label: "Gallery image 6", name: "gallery_image_url_6", widget: "image" }
+      - { label: "Gallery image 6 Greek", name: "gallery_image_url_6_gr", widget: "image" }
       - { label: "Gallery image 7", name: "gallery_image_url_7", widget: "image" }
+      - { label: "Gallery image 7 Greek", name: "gallery_image_url_7_gr", widget: "image" }
       - { label: "Gallery image 8", name: "gallery_image_url_8", widget: "image" }
+      - { label: "Gallery image 8 Greek", name: "gallery_image_url_8_gr", widget: "image" }
 
     # chef section
+      - { label: "Chefs Heading", name: "chefs_heading", widget: "string" }
+      - { label: "Chefs Heading Greek", name: "chefs_heading_gr", widget: "string" }
       - { label: "Chefs Title", name: "chefs_title", widget: "string" }
+      - { label: "Chefs Title Greek", name: "chefs_title_gr", widget: "string" }
       # chef 1
       - { label: "Chef 1 image", name: "chef_1_image_url", widget: "image" }
+      - { label: "Chef 1 image Greek", name: "chef_1_image_url_gr", widget: "image" }
       - { label: "Chefs 1 Name", name: "chef_1_name", widget: "string" }
+      - { label: "Chefs 1 Name Greek", name: "chef_1_name_gr", widget: "string" }
       - { label: "Chefs 1 Profile", name: "chef_1_profile", widget: "string" }
+      - { label: "Chefs 1 Profile Greek", name: "chef_1_profile_gr", widget: "string" }
       # chef 2
       - { label: "Chef 2 image", name: "chef_2_image_url", widget: "image" }
+      - { label: "Chef 2 image Greek", name: "chef_2_image_url_gr", widget: "image" }
       - { label: "Chefs 2 Name", name: "chef_2_name", widget: "string" }
+      - { label: "Chefs 2 Name Greek", name: "chef_2_name_gr", widget: "string" }
       - { label: "Chefs 2 Profile", name: "chef_2_profile", widget: "string" }
+      - { label: "Chefs 2 Profile Greek", name: "chef_2_profile_gr", widget: "string" }
       # chef 3
       - { label: "Chef 3 image", name: "chef_3_image_url", widget: "image" }
+      - { label: "Chef 3 image Greek", name: "chef_3_image_url_gr", widget: "image" }
       - { label: "Chefs 3 Name", name: "chef_3_name", widget: "string" }
+      - { label: "Chefs 3 Name Greek", name: "chef_3_name_gr", widget: "string" }
       - { label: "Chefs 3 Profile", name: "chef_3_profile", widget: "string" }
+      - { label: "Chefs 3 Profile Greek", name: "chef_3_profile_gr", widget: "string" }
 
 
-  - name: "greek index" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "greek index" # Used in the UI, ie.: "New Post"
-    folder: "content/greek" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-   
-    # banner
-      - { label: "Banner Title", name: "banner_title", widget: "string" }
-      - { label: "Banner Sub Title", name: "banner_subtitle", widget: "string" }
-      - { label: "Banner YouTube Link", name: "banner_youtube_link", widget: "string" }
-   
-    # about
-      - { label: "About image URL", name: "about_image_url", widget: "image" }
-      - { label: "About Title", name: "about_title", widget: "string" }
-      - { label: "About Sub Title", name: "about_subtitle", widget: "string" }
-      - { label: "About Content 1", name: "about_content_1", widget: "text" }
-      - { label: "About Content 2", name: "about_content_2", widget: "text" }
-      - { label: "About Content 3", name: "about_content_3", widget: "text" }
-      - { label: "About Content 4", name: "about_content_4", widget: "text" }
-   
-    # why us
-      - { label: "Why_Us Title", name: "whyus_title", widget: "string" }
-      - { label: "Name 1", name: "name_1", widget: "string" }
-      - { label: "Content 1", name: "content_1", widget: "text" }
-      - { label: "Name 2", name: "name_2", widget: "string" }
-      - { label: "Content 2", name: "content_2", widget: "text" }
-      - { label: "Name 3", name: "name_3", widget: "string" }
-      - { label: "Content 3", name: "content_3", widget: "text" }
-    
-    # menu
-      - { label: "Menu Title", name: "menu_title", widget: "string" }
-      - { label: "Menu Filter Name 1", name: "menu_filter_1", widget: "string" }
-      - { label: "Menu Filter Name 2", name: "menu_filter_2", widget: "string" }
-      - { label: "Menu Filter Name 3", name: "menu_filter_3", widget: "string" }
-      - { label: "Menu Filter Name 4", name: "menu_filter_4", widget: "string" }
-    
-    # menu Items
-        # item 1
-      - { label: "Menu Item 1 image", name: "menu_item1_image", widget: "image" }
-      - { label: "Item 1 Name", name: "item1_name", widget: "string" }
-      - { label: "Item 1 Price", name: "item1_price", widget: "string" }
-      - { label: "Item 1 Ingredients", name: "item1_ingredients", widget: "text" }
-        # item 2
-      - { label: "Menu Item 2 image", name: "menu_item2_image", widget: "image" }
-      - { label: "Item 2 Name", name: "item2_name", widget: "string" }
-      - { label: "Item 2 Price", name: "item2_price", widget: "string" }
-      - { label: "Item 2 Ingredients", name: "item2_ingredients", widget: "text" }
-       # item 3
-      - { label: "Menu Item 3 image", name: "menu_item3_image", widget: "image" }
-      - { label: "Item 3 Name", name: "item3_name", widget: "string" }
-      - { label: "Item 3 Price", name: "item3_price", widget: "string" }
-      - { label: "Item 3 Ingredients", name: "item3_ingredients", widget: "text" }
-        # item 4
-      - { label: "Menu Item 4 image", name: "menu_item4_image", widget: "image" }
-      - { label: "Item 4 Name", name: "item4_name", widget: "string" }
-      - { label: "Item 4 Price", name: "item4_price", widget: "string" }
-      - { label: "Item 4 Ingredients", name: "item4_ingredients", widget: "text" }
-       # item 5
-      - { label: "Menu Item 5 image", name: "menu_item5_image", widget: "image" }
-      - { label: "Item 5 Name", name: "item5_name", widget: "string" }
-      - { label: "Item 5 Price", name: "item5_price", widget: "string" }
-      - { label: "Item 5 Ingredients", name: "item5_ingredients", widget: "text" }
-       # item 6
-      - { label: "Menu Item 6 image", name: "menu_item6_image", widget: "image" }
-      - { label: "Item 6 Name", name: "item6_name", widget: "string" }
-      - { label: "Item 6 Price", name: "item6_price", widget: "string" }
-      - { label: "Item 6 Ingredients", name: "item6_ingredients", widget: "text" }
-        # item 7
-      - { label: "Menu Item 7 image", name: "menu_item7_image", widget: "image" }
-      - { label: "Item 7 Name", name: "item7_name", widget: "string" }
-      - { label: "Item 7 Price", name: "item7_price", widget: "string" }
-      - { label: "Item 7 Ingredients", name: "item7_ingredients", widget: "text" }
-       # item 8
-      - { label: "Menu Item 8 image", name: "menu_item8_image", widget: "image" }
-      - { label: "Item 8 Name", name: "item8_name", widget: "string" }
-      - { label: "Item 8 Price", name: "item8_price", widget: "string" }
-      - { label: "Item 8 Ingredients", name: "item8_ingredients", widget: "text" }
-       # item 9
-      - { label: "Menu Item 9 image", name: "menu_item9_image", widget: "image" }
-      - { label: "Item 9 Name", name: "item9_name", widget: "string" }
-      - { label: "Item 9 Price", name: "item9_price", widget: "string" }
-      - { label: "Item 9 Ingredients", name: "item9_ingredients", widget: "text" }
-    
-    #special Items
-      - { label: "Special Heading", name: "specials_heading", widget: "string" }
-      # item 1
-      - { label: "Special item 1 image", name: "special_item1_image", widget: "image" }
-      - { label: "Special Item 1 Name", name: "special_item1_name", widget: "string" }
-      - { label: "Special Item 1 Title", name: "special_item1_title", widget: "string" }
-      - { label: "Special Item 1 Content 1", name: "special_item1_content1", widget: "text" }
-      - { label: "Special Item 1 Content 2", name: "special_item1_content2", widget: "text" }
-      # item 2
-      - { label: "Special item 2 image", name: "special_item2_image", widget: "image" }
-      - { label: "Special Item 2 Name", name: "special_item2_name", widget: "string" }
-      - { label: "Special Item 2 Title", name: "special_item2_title", widget: "string" }
-      - { label: "Special Item 2 Content 1", name: "special_item2_content1", widget: "text" }
-      - { label: "Special Item 2 Content 2", name: "special_item2_content2", widget: "text" }
-      # item 3
-      - { label: "Special item 3 image", name: "special_item3_image", widget: "image" }
-      - { label: "Special Item 3 Name", name: "special_item3_name", widget: "string" }
-      - { label: "Special Item 3 Title", name: "special_item3_title", widget: "string" }
-      - { label: "Special Item 3 Content 1", name: "special_item3_content1", widget: "text" }
-      - { label: "Special Item 3 Content 2", name: "special_item3_content2", widget: "text" }
-      # item 4
-      - { label: "Special item 4 image", name: "special_item4_image", widget: "image" }
-      - { label: "Special Item 4 Name", name: "special_item4_name", widget: "string" }
-      - { label: "Special Item 4 Title", name: "special_item4_title", widget: "string" }
-      - { label: "Special Item 4 Content 1", name: "special_item4_content1", widget: "text" }
-      - { label: "Special Item 4 Content 2", name: "special_item4_content2", widget: "text" }
-      # item 5
-      - { label: "Special item 5 image", name: "special_item5_image", widget: "image" }
-      - { label: "Special Item 5 Name", name: "special_item5_name", widget: "string" }
-      - { label: "Special Item 5 Title", name: "special_item5_title", widget: "string" }
-      - { label: "Special Item 5 Content 1", name: "special_item5_content1", widget: "text" }
-      - { label: "Special Item 5 Content 2", name: "special_item5_content2", widget: "text" }
-
-    # events
-      - { label: "Event Title", name: "events_title", widget: "string" }
-      # event 1
-      - { label: "Event 1 image", name: "event1_image", widget: "image" }
-      - { label: "Event 1 Name", name: "event1_name", widget: "string" }
-      - { label: "Event 1 Price", name: "event1_price", widget: "string" }
-      - { label: "Event 1 Content 1", name: "event1_content1", widget: "text" }
-      - { label: "Event 1 Content 2", name: "event1_content2", widget: "text" }
-      - { label: "Event 1 Content 3", name: "event1_content3", widget: "text" }
-      - { label: "Event 1 Content 4", name: "event1_content4", widget: "text" }
-      - { label: "Event 1 Content 5", name: "event1_content5", widget: "text" }
-      # event 2
-      - { label: "Event 2 image", name: "event2_image", widget: "image" }
-      - { label: "Event 2 Name", name: "event2_name", widget: "string" }
-      - { label: "Event 2 Price", name: "event2_price", widget: "string" }
-      - { label: "Event 2 Content 1", name: "event2_content1", widget: "text" }
-      - { label: "Event 2 Content 2", name: "event2_content2", widget: "text" }
-      - { label: "Event 2 Content 3", name: "event2_content3", widget: "text" }
-      - { label: "Event 2 Content 4", name: "event2_content4", widget: "text" }
-      - { label: "Event 2 Content 5", name: "event2_content5", widget: "text" }
-      # event 3
-      - { label: "Event 3 image", name: "event3_image", widget: "image" }
-      - { label: "Event 3 Name", name: "event3_name", widget: "string" }
-      - { label: "Event 3 Price", name: "event3_price", widget: "string" }
-      - { label: "Event 3 Content 1", name: "event3_content1", widget: "text" }
-      - { label: "Event 3 Content 2", name: "event3_content2", widget: "text" }
-      - { label: "Event 3 Content 3", name: "event3_content3", widget: "text" }
-      - { label: "Event 3 Content 4", name: "event3_content4", widget: "text" }
-      - { label: "Event 3 Content 5", name: "event3_content5", widget: "text" }
   
-  # testimonial
-      - { label: "Testimonial Title", name: "testimonial_title", widget: "string" }
-      # content 1
-      - { label: "Testimonial 1 Content", name: "testimonial1_content", widget: "text" }
-      - { label: "Testimonial 1 image", name: "testimonial1_image", widget: "image" }
-      - { label: "Testimonial 1 Name", name: "testimonial1_name", widget: "string" }
-      - { label: "Testimonial 1 Designation", name: "testimonial1_designation", widget: "string" }
-      # content 2
-      - { label: "Testimonial 2 Content", name: "testimonial2_content", widget: "text" }
-      - { label: "Testimonial 2 image", name: "testimonial2_image", widget: "image" }
-      - { label: "Testimonial 2 Name", name: "testimonial2_name", widget: "string" }
-      - { label: "Testimonial 2 Designation", name: "testimonial2_designation", widget: "string" }
-      # content 3
-      - { label: "Testimonial 3 Content", name: "testimonial3_content", widget: "text" }
-      - { label: "Testimonial 3 image", name: "testimonial3_image", widget: "image" }
-      - { label: "Testimonial 3 Name", name: "testimonial3_name", widget: "string" }
-      - { label: "Testimonial 3 Designation", name: "testimonial3_designation", widget: "string" }
-      # content 4
-      - { label: "Testimonial 4 Content", name: "testimonial4_content", widget: "text" }
-      - { label: "Testimonial 4 image", name: "testimonial4_image", widget: "image" }
-      - { label: "Testimonial 4 Name", name: "testimonial4_name", widget: "string" }
-      - { label: "Testimonial 4 Designation", name: "testimonial4_designation", widget: "string" }
-      # content 5
-      - { label: "Testimonial 5 Content", name: "testimonial5_content", widget: "text" }
-      - { label: "Testimonial 5 image", name: "testimonial5_image", widget: "image" }
-      - { label: "Testimonial 5 Name", name: "testimonial5_name", widget: "string" }
-      - { label: "Testimonial 5 Designation", name: "testimonial5_designation", widget: "string" }
-      
-    # Gallery Section
-      - { label: "Gallery Title", name: "gallery_title", widget: "string" }
-      - { label: "Gallery image 1", name: "gallery_image_url_1", widget: "image" }
-      - { label: "Gallery image 2", name: "gallery_image_url_2", widget: "image" }
-      - { label: "Gallery image 3", name: "gallery_image_url_3", widget: "image" }
-      - { label: "Gallery image 4", name: "gallery_image_url_4", widget: "image" }
-      - { label: "Gallery image 5", name: "gallery_image_url_5", widget: "image" }
-      - { label: "Gallery image 6", name: "gallery_image_url_6", widget: "image" }
-      - { label: "Gallery image 7", name: "gallery_image_url_7", widget: "image" }
-      - { label: "Gallery image 8", name: "gallery_image_url_8", widget: "image" }
-
-    # chef section
-      - { label: "Chefs Title", name: "chefs_title", widget: "string" }
-      # chef 1
-      - { label: "Chef 1 image", name: "chef_1_image_url", widget: "image" }
-      - { label: "Chefs 1 Name", name: "chef_1_name", widget: "string" }
-      - { label: "Chefs 1 Profile", name: "chef_1_profile", widget: "string" }
-      # chef 2
-      - { label: "Chef 2 image", name: "chef_2_image_url", widget: "image" }
-      - { label: "Chefs 2 Name", name: "chef_2_name", widget: "string" }
-      - { label: "Chefs 2 Profile", name: "chef_2_profile", widget: "string" }
-      # chef 3
-      - { label: "Chef 3 image", name: "chef_3_image_url", widget: "image" }
-      - { label: "Chefs 3 Name", name: "chef_3_name", widget: "string" }
-      - { label: "Chefs 3 Profile", name: "chef_3_profile", widget: "string" }
 
      

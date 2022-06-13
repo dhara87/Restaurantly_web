@@ -5,8 +5,10 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
         <div class="row">
             <div class="col-lg-8">
-                <h1>{{ .Params.banner_title }}</span></h1>
-                <h2>{{ .Params.banner_subtitle }}</h2>
+                <h1 class="has_lang" lang="en">{{ .Params.banner_title }}</span></h1>
+                <h1 class="has_lang" lang="gr">{{ .Params.banner_title_gr }}</span></h1>
+                <h2 class="has_lang" lang="en">{{ .Params.banner_subtitle }}</h2>
+                <h2 class="has_lang" lang="gr">{{ .Params.banner_subtitle_gr }}</h2>
 
                 <div class="btns">
                     <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
@@ -15,7 +17,8 @@
             </div>
             <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in"
                 data-aos-delay="200">
-                <a href="{{ .Params.banner_youtube_link }}" class="glightbox play-btn"></a>
+                <a href="{{ .Params.banner_youtube_link }}" class="glightbox play-btn has_lang" lang="en"></a>
+                <a href="{{ .Params.banner_youtube_link_gr }}" class="glightbox play-btn has_lang" lang="gr"></a>
             </div>
 
         </div>
@@ -24,29 +27,39 @@
 
 <main id="main">
 
-    <!-- ======= About Section ======= -->
+     <!-- ======= About Section ======= -->
     <section id="about" class="about">
         <div class="container" data-aos="fade-up">
 
             <div class="row">
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
                     <div class="about-img">
-                        <img src="{{ .Params.about_image_url }}" alt="">
+                        <img class="has_lang" lang="en" src="{{ .Params.about_image_url }}" alt="img">
+                        <img class="has_lang" lang="gr" src="{{ .Params.about_image_url_gr }}" alt="img">
                     </div>
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-                    <h3>{{ .Params.about_title }}</h3>
-                    <p class="fst-italic">
-                        {{ .Params.about_subtitle }}
+                    <h3 class="has_lang" lang="en">{{ .Params.about_title }}</h3>
+                    <h3 class="has_lang" lang="gr">{{ .Params.about_title_gr }}</h3>
+                    <p class="fst-italic has_lang" lang="en">
+                    {{ .Params.about_subtitle }}
                     </p>
+                    <p class="fst-italic has_lang" lang="gr">
+                        {{ .Params.about_subtitle_gr }}
+                        </p>
                     <ul>
-                        <li><i class="bi bi-check-circle"></i> {{ .Params.about_content_1 }}
-                        </li>
-                        <li><i class="bi bi-check-circle"></i> {{ .Params.about_content_2 }}</li>
-                        <li><i class="bi bi-check-circle"></i> {{ .Params.about_content_3 }}</li>
+                        <li><i class="bi bi-check-circle has_lang" lang="en"></i> {{ .Params.about_content_1 }}</li>
+                        <li><i class="bi bi-check-circle has_lang" lang="gr"></i> {{ .Params.about_content_1_gr }}</li>
+                        <li><i class="bi bi-check-circle has_lang" lang="en"></i> {{ .Params.about_content_2 }}</li>
+                        <li><i class="bi bi-check-circle has_lang" lang="gr"></i> {{ .Params.about_content_2_gr }}</li>
+                        <li><i class="bi bi-check-circle has_lang" lang="en"></i> {{ .Params.about_content_3 }}</li>
+                        <li><i class="bi bi-check-circle has_lang" lang="gr"></i> {{ .Params.about_content_3_gr }}</li>
                     </ul>
-                    <p>
+                    <p class="has_lang" lang="en">
                         {{ .Params.about_content_4 }}
+                    </p>
+                    <p class="has_lang" lang="gr">
+                        {{ .Params.about_content_4_gr }}
                     </p>
                 </div>
             </div>
@@ -54,47 +67,53 @@
         </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-        <div class="container" data-aos="fade-up">
+   <!-- ======= Why Us Section ======= -->
+   <section id="why-us" class="why-us">
+    <div class="container" data-aos="fade-up">
 
-            <div class="section-title">
-                <h2>Why Us</h2>
-                <p>{{ .Params.whyus_title }}</p>
+        <div class="section-title">
+            <h2>Why Us</h2>
+            <p class="has_lang" lang="en">{{ .Params.whyus_title }}</p>
+            <p class="has_lang" lang="gr">{{ .Params.whyus_title_gr }}</p>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-4">
+                <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                    <span>01</span>
+                    <h4 class="has_lang" lang="en">{{ .Params.name_1 }}</h4>
+                    <h4 class="has_lang" lang="gr">{{ .Params.name_1_gr }}</h4>
+                    <p class="has_lang" lang="en">{{ .Params.content_1 }}</p>
+                    <p class="has_lang" lang="gr">{{ .Params.content_1_gr }}</p>
+                </div>
             </div>
 
-            <div class="row">
-
-                <div class="col-lg-4">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="100">
-                        <span>01</span>
-                        <h4>{{ .Params.name_1 }}</h4>
-                        <p>{{ .Params.content_1 }}
-                        </p>
-                    </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+                <div class="box" data-aos="zoom-in" data-aos-delay="200">
+                    <span>02</span>
+                    <h4 class="has_lang" lang="en">{{ .Params.name_2 }}</h4>
+                    <h4 class="has_lang" lang="gr">{{ .Params.name_2_gr }}</h4>
+                    <p class="has_lang" lang="en">{{ .Params.content_2 }}</p>
+                    <p class="has_lang" lang="gr">{{ .Params.content_2_gr }}</p>
                 </div>
+            </div>
 
-                <div class="col-lg-4 mt-4 mt-lg-0">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="200">
-                        <span>02</span>
-                        <h4>{{ .Params.name_2 }}</h4>
-                        <p>{{ .Params.content_2 }}</p>
-                    </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+                <div class="box" data-aos="zoom-in" data-aos-delay="300">
+                    <span>03</span>
+                    <h4 class="has_lang" lang="en"> {{ .Params.name_3 }}</h4>
+                    <h4 class="has_lang" lang="gr"> {{ .Params.name_3_gr }}</h4>
+                    <p class="has_lang" lang="en">{{ .Params.content_3 }}</p>
+                    <p class="has_lang" lang="gr">{{ .Params.content_3_gr }}</p>
+                   
                 </div>
-
-                <div class="col-lg-4 mt-4 mt-lg-0">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="300">
-                        <span>03</span>
-                        <h4> {{ .Params.name_3 }}</h4>
-                        <p>{{ .Params.content_3 }}
-                        </p>
-                    </div>
-                </div>
-
             </div>
 
         </div>
-    </section><!-- End Why Us Section -->
+
+    </div>
+</section><!-- End Why Us Section -->
 
     <!-- ======= Menu Section ======= -->
     <section id="menu" class="menu section-bg">
@@ -102,7 +121,8 @@
 
             <div class="section-title">
                 <h2>Menu</h2>
-                <p>{{ .Params.menu_title }}</p>
+                <p class="has_lang" lang="en">{{ .Params.menu_title }}</p>
+                <p class="has_lang" lang="gr">{{ .Params.menu_title_gr }}</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -119,92 +139,155 @@
             <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
                 <div class="col-lg-6 menu-item filter-starters">
-                    <img src="{{ .Params.menu_item1_image }}" class="menu-img" alt="{{ .Params.item1_name }}">
-                    <div class="menu-content">
+                    <img src="{{ .Params.menu_item1_image }}" class="menu-img has_lang" lang="en" alt="{{ .Params.item1_name }}">
+                    <img src="{{ .Params.menu_item1_image_gr }}" class="menu-img has_lang" lang="gr" alt="{{ .Params.item1_name }}">
+                    <div class="menu-content has_lang" lang="en">
                         <a href="/">{{ .Params.item1_name }}</a><span>{{ .Params.item1_price }}</span>
                     </div>
-                    <div class="menu-ingredients">
+                    <div class="menu-content has_lang" lang="gr">
+                        <a href="/">{{ .Params.item1_name_gr }}</a><span>{{ .Params.item1_price_gr }}</span>
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="en">
                         {{ .Params.item1_ingredients }}
                     </div>
+                    <div class="menu-ingredients has_lang" lang="gr">
+                        {{ .Params.item1_ingredients_gr }}
+                    </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-specialty">
-                    <img src="{{ .Params.menu_item2_image }}" class="menu-img" alt="{{ .Params.item2_name }}">
-                    <div class="menu-content">
+                    <img src="{{ .Params.menu_item2_image }}" class="menu-img has_lang" lang="en" alt="{{ .Params.item2_name }}">
+                    <img src="{{ .Params.menu_item2_image_gr }}" class="menu-img has_lang" lang="gr" alt="{{ .Params.item2_name }}">
+                    <div class="menu-content has_lang" lang="en">
                         <a href="/">{{ .Params.item2_name }}</a><span>{{ .Params.item2_price }}</span>
                     </div>
-                    <div class="menu-ingredients">
+                    <div class="menu-content has_lang" lang="gr">
+                        <a href="/">{{ .Params.item2_name_gr }}</a><span>{{ .Params.item2_price_gr }}</span>
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="en">
                         {{ .Params.item2_ingredients }}
                     </div>
+                    <div class="menu-ingredients has_lang" lang="gr">
+                        {{ .Params.item2_ingredients_gr }}
+                    </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-starters">
-                    <img src="{{ .Params.menu_item3_image }}" class="menu-img" alt="{{ .Params.item3_name }}">
-                    <div class="menu-content">
+                    <img src="{{ .Params.menu_item3_image }}" class="menu-img has_lang" lang="en" alt="{{ .Params.item3_name }}">
+                    <img src="{{ .Params.menu_item3_image_gr }}" class="menu-img has_lang" lang="gr" alt="{{ .Params.item3_name }}">
+                    <div class="menu-content has_lang" lang="en">
                         <a href="/">{{ .Params.item3_name }}</a><span>{{ .Params.item3_price }}</span>
                     </div>
-                    <div class="menu-ingredients">
+                    <div class="menu-content has_lang" lang="gr">
+                        <a href="/">{{ .Params.item3_name_gr }}</a><span>{{ .Params.item3_price_gr }}</span>
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="en">
                         {{ .Params.item3_ingredients }}
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="gr">
+                        {{ .Params.item3_ingredients_gr }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-salads">
-                    <img src="{{ .Params.menu_item4_image }}" class="menu-img" alt="{{ .Params.item4_name }}">
-                    <div class="menu-content">
+                    <img src="{{ .Params.menu_item4_image }}" class="menu-img has_lang" lang="en" alt="{{ .Params.item4_name }}">
+                    <img src="{{ .Params.menu_item4_image_gr }}" class="menu-img has_lang" lang="gr" alt="{{ .Params.item4_name }}">
+                    <div class="menu-content has_lang" lang="en">
                         <a href="/">{{ .Params.item4_name }}</a><span>{{ .Params.item4_price }}</span>
                     </div>
-                    <div class="menu-ingredients">
+                    <div class="menu-content has_lang" lang="gr">
+                        <a href="/">{{ .Params.item4_name_gr }}</a><span>{{ .Params.item4_price_gr }}</span>
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="en">
                         {{ .Params.item4_ingredients }}
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="gr">
+                        {{ .Params.item4_ingredients_gr }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-specialty">
-                    <img src="{{ .Params.menu_item5_image }}" class="menu-img" alt="{{ .Params.item5_name }}">
-                    <div class="menu-content">
+                    <img src="{{ .Params.menu_item5_image }}" class="menu-img has_lang" lang="en" alt="{{ .Params.item6_name }}">
+                    <img src="{{ .Params.menu_item5_image_gr }}" class="menu-img has_lang" lang="gr" alt="{{ .Params.item6_name_gr }}">
+                    <div class="menu-content has_lang" lang="en">
                         <a href="/">{{ .Params.item5_name }}</a><span>{{ .Params.item5_price }}</span>
                     </div>
-                    <div class="menu-ingredients">
+                    <div class="menu-content has_lang" lang="gr">
+                        <a href="/">{{ .Params.item5_name_gr }}</a><span>{{ .Params.item5_price_gr }}</span>
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="en">
                         {{ .Params.item5_ingredients }}
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="gr">
+                        {{ .Params.item5_ingredients_gr }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-starters">
-                    <img src="{{ .Params.menu_item6_image }}" class="menu-img" alt="{{ .Params.item6_name }}">
-                    <div class="menu-content">
+                    <img src="{{ .Params.menu_item6_image }}" class="menu-img has_lang" lang="en" alt="{{ .Params.item6_name }}">
+                    <img src="{{ .Params.menu_item6_image_gr }}" class="menu-img has_lang" lang="gr" alt="{{ .Params.item6_name }}">
+                    <div class="menu-content has_lang" lang="en">
                         <a href="/">{{ .Params.item6_name }}</a><span>{{ .Params.item6_price }}</span>
                     </div>
-                    <div class="menu-ingredients">
+                    <div class="menu-content has_lang" lang="gr">
+                        <a href="/">{{ .Params.item6_name_gr }}</a><span>{{ .Params.item6_price_gr }}</span>
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="en">
                         {{ .Params.item6_ingredients }}
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="gr">
+                        {{ .Params.item6_ingredients_gr }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-salads">
-                    <img src="{{ .Params.menu_item7_image }}" class="menu-img" alt="{{ .Params.item7_name }}">
-                    <div class="menu-content">
+                    <img src="{{ .Params.menu_item7_image }}" class="menu-img has_lang" lang="en" alt="{{ .Params.item7_name }}">
+                    <img src="{{ .Params.menu_item7_image_gr }}" class="menu-img has_lang" lang="gr" alt="{{ .Params.item7_name }}">
+                    <div class="menu-content has_lang" lang="en">
                         <a href="/">{{ .Params.item7_name }}</a><span>{{ .Params.item7_price }}</span>
                     </div>
-                    <div class="menu-ingredients">
+                    <div class="menu-content has_lang" lang="gr">
+                        <a href="/">{{ .Params.item7_name_gr }}</a><span>{{ .Params.item7_price_gr }}</span>
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="en">
                         {{ .Params.item7_ingredients }}
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="gr">
+                        {{ .Params.item7_ingredients_gr }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-specialty">
-                    <img src="{{ .Params.menu_item8_image }}" class="menu-img" alt="{{ .Params.item8_name }}">
-                    <div class="menu-content">
+                    <img src="{{ .Params.menu_item8_image }}" class="menu-img has_lang" lang="en" alt="{{ .Params.item8_name }}">
+                    <img src="{{ .Params.menu_item8_image_gr }}" class="menu-img has_lang" lang="gr" alt="{{ .Params.item8_name }}">
+                    <div class="menu-content has_lang" lang="en">
                         <a href="/">{{ .Params.item8_name }}</a><span>{{ .Params.item8_price }}</span>
                     </div>
-                    <div class="menu-ingredients">
+                    <div class="menu-content has_lang" lang="gr">
+                        <a href="/">{{ .Params.item8_name_gr }}</a><span>{{ .Params.item8_price_gr }}</span>
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="en">
                         {{ .Params.item8_ingredients }}
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="gr">
+                        {{ .Params.item8_ingredients_gr }}
                     </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-salads">
-                    <img src="{{ .Params.menu_item9_image }}" class="menu-img" alt="{{ .Params.item9_name }}">
-                    <div class="menu-content">
+                    <img src="{{ .Params.menu_item9_image }}" class="menu-img has_lang" lang="en" alt="{{ .Params.item9_name }}">
+                    <img src="{{ .Params.menu_item9_image_gr }}" class="menu-img has_lang" lang="gr" alt="{{ .Params.item9_name }}">
+                    <div class="menu-content has_lang" lang="en">
                         <a href="/">{{ .Params.item9_name }}</a><span>{{ .Params.item9_price }}</span>
                     </div>
-                    <div class="menu-ingredients">
+                    <div class="menu-content has_lang" lang="gr">
+                        <a href="/">{{ .Params.item9_name_gr }}</a><span>{{ .Params.item9_price_gr }}</span>
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="en">
                         {{ .Params.item9_ingredients }}
+                    </div>
+                    <div class="menu-ingredients has_lang" lang="gr">
+                        {{ .Params.item9_ingredients_gr }}
                     </div>
                 </div>
 
@@ -216,29 +299,45 @@
     <!-- ======= Specials Section ======= -->
     <section id="specials" class="specials">
         <div class="container" data-aos="fade-up">
-
             <div class="section-title">
-                <h2>Specials</h2>
-                <p>{{ .Params.specials_heading }}</p>
+                <h2 class="has_lang" lang="en">{{ .Params.specials_title }}</h2>
+                <h2 class="has_lang" lang="gr">{{ .Params.specials_title_gr }}</h2>
+                <p class="has_lang" lang="en">{{ .Params.specials_heading }}</p>
+                <p class="has_lang" lang="gr">{{ .Params.specials_heading_gr }}</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-3">
                     <ul class="nav nav-tabs flex-column">
-                        <li class="nav-item">
+                        <li class="nav-item has_lang" lang="en">
                             <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">{{ .Params.special_item1_name }}</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item has_lang" lang="gr">
+                            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">{{ .Params.special_item1_name_gr }}</a>
+                        </li>
+                        <li class="nav-item has_lang" lang="en">
                             <a class="nav-link" data-bs-toggle="tab" href="#tab-2">{{ .Params.special_item2_name }}</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item has_lang" lang="gr">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">{{ .Params.special_item2_name_gr }}</a>
+                        </li>
+                        <li class="nav-item has_lang" lang="en">
                             <a class="nav-link" data-bs-toggle="tab" href="#tab-3">{{ .Params.special_item3_name }}</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item has_lang" lang="gr">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">{{ .Params.special_item3_name_gr }}</a>
+                        </li>
+                        <li class="nav-item has_lang" lang="en">
                             <a class="nav-link" data-bs-toggle="tab" href="#tab-4">{{ .Params.special_item4_name }}</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item has_lang" lang="gr">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">{{ .Params.special_item4_name_gr }}</a>
+                        </li>
+                        <li class="nav-item has_lang" lang="en">
                             <a class="nav-link" data-bs-toggle="tab" href="#tab-5">{{ .Params.special_item5_name }}</a>
+                        </li>
+                        <li class="nav-item has_lang" lang="gr">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tab-5">{{ .Params.special_item5_name_gr }}</a>
                         </li>
                     </ul>
                 </div>
@@ -247,61 +346,81 @@
                         <div class="tab-pane active show" id="tab-1">
                             <div class="row">
                                 <div class="col-lg-8 details order-2 order-lg-1">
-                                    <h3>{{ .Params.special_item1_title }}</h3>
-                                    <p class="fst-italic">{{ .Params.special_item1_content1 }}</p>
-                                    <p>{{ .Params.special_item1_content2 }}</p>
+                                    <h3 class="has_lang" lang="en">{{ .Params.special_item1_title }}</h3>
+                                    <h3 class="has_lang" lang="gr">{{ .Params.special_item1_title_gr }}</h3>
+                                    <p class="fst-italic has_lang" lang="en">{{ .Params.special_item1_content1 }}</p>
+                                    <p class="fst-italic has_lang" lang="gr">{{ .Params.special_item1_content1_gr }}</p>
+                                    <p class="has_lang" lang="en">{{ .Params.special_item1_content2 }}</p>
+                                    <p class="has_lang" lang="gr">{{ .Params.special_item1_content2_gr }}</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="{{ .Params.special_item1_image }}" alt="{{ .Params.special_item1_name }}" class="img-fluid">
+                                    <img src="{{ .Params.special_item1_image }}" alt="{{ .Params.special_item1_name }}" class="img-fluid has_lang" lang="en">
+                                    <img src="{{ .Params.special_item1_image_gr }}" alt="{{ .Params.special_item1_name_gr }}" class="img-fluid has_lang" lang="gr">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="tab-2">
                             <div class="row">
                                 <div class="col-lg-8 details order-2 order-lg-1">
-                                    <h3>{{ .Params.special_item2_title }}</h3>
-                                    <p class="fst-italic">{{ .Params.special_item2_content1 }}</p>
-                                    <p>{{ .Params.special_item2_content2 }}</p>
+                                    <h3 class="has_lang" lang="en">{{ .Params.special_item2_title }}</h3>
+                                    <h3 class="has_lang" lang="gr">{{ .Params.special_item2_title_gr }}</h3>
+                                    <p class="fst-italic has_lang" lang="en">{{ .Params.special_item2_content1 }}</p>
+                                    <p class="fst-italic has_lang" lang="gr">{{ .Params.special_item2_content1_gr }}</p>
+                                    <p class="has_lang" lang="en">{{ .Params.special_item2_content2 }}</p>
+                                    <p class="has_lang" lang="gr">{{ .Params.special_item2_content2_gr }}</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="{{ .Params.special_item2_image }}" alt="{{ .Params.special_item2_name }}" class="img-fluid">
+                                    <img src="{{ .Params.special_item2_image }}" alt="{{ .Params.special_item2_name }}" class="img-fluid has_lang" lang="en">
+                                    <img src="{{ .Params.special_item2_image_gr }}" alt="{{ .Params.special_item2_name_gr }}" class="img-fluid has_lang" lang="gr">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="tab-3">
                             <div class="row">
                                 <div class="col-lg-8 details order-2 order-lg-1">
-                                    <h3>{{ .Params.special_item3_title }}</h3>
-                                    <p class="fst-italic">{{ .Params.special_item3_content1 }}</p>
-                                    <p>{{ .Params.special_item3_content2 }}</p>
+                                    <h3 class="has_lang" lang="en">{{ .Params.special_item3_title }}</h3>
+                                    <h3 class="has_lang" lang="gr">{{ .Params.special_item3_title_gr }}</h3>
+                                    <p class="fst-italic has_lang" lang="en">{{ .Params.special_item3_content1 }}</p>
+                                    <p class="fst-italic has_lang" lang="gr">{{ .Params.special_item3_content1_gr }}</p>
+                                    <p class="has_lang" lang="en">{{ .Params.special_item3_content2 }}</p>
+                                    <p class="has_lang" lang="gr">{{ .Params.special_item3_content2_gr }}</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="{{ .Params.special_item3_image }}" alt="{{ .Params.special_item3_name }}" class="img-fluid">
+                                    <img src="{{ .Params.special_item3_image }}" alt="{{ .Params.special_item3_name }}" class="img-fluid has_lang" lang="en">
+                                    <img src="{{ .Params.special_item3_image_gr }}" alt="{{ .Params.special_item3_name_gr }}" class="img-fluid has_lang" lang="gr">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="tab-4">
                             <div class="row">
                                 <div class="col-lg-8 details order-2 order-lg-1">
-                                    <h3>{{ .Params.special_item4_title }}</h3>
-                                    <p class="fst-italic">{{ .Params.special_item4_content1 }}</p>
-                                    <p>{{ .Params.special_item4_content2 }}</p>
+                                    <h3 class="has_lang" lang="en">{{ .Params.special_item4_title }}</h3>
+                                    <h3 class="has_lang" lang="gr">{{ .Params.special_item4_title_gr }}</h3>
+                                    <p class="fst-italic has_lang" lang="en">{{ .Params.special_item4_content1 }}</p>
+                                    <p class="fst-italic has_lang" lang="gr">{{ .Params.special_item4_content1_gr }}</p>
+                                    <p class="has_lang" lang="en">{{ .Params.special_item4_content2 }}</p>
+                                    <p class="has_lang" lang="gr">{{ .Params.special_item4_content2_gr }}</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="{{ .Params.special_item4_image }}" alt="{{ .Params.special_item4_name }}" class="img-fluid">
+                                    <img src="{{ .Params.special_item4_image }}" alt="{{ .Params.special_item4_name }}" class="img-fluid has_lang" lang="en">
+                                    <img src="{{ .Params.special_item4_image_gr }}" alt="{{ .Params.special_item4_name_gr }}" class="img-fluid has_lang" lang="gr">
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="tab-5">
                             <div class="row">
                                 <div class="col-lg-8 details order-2 order-lg-1">
-                                    <h3>{{ .Params.special_item5_title }}</h3>
-                                    <p class="fst-italic">{{ .Params.special_item5_content1 }}
+                                    <h3 class="has_lang" lang="en">{{ .Params.special_item5_title }}</h3>
+                                    <h3 class="has_lang" lang="gr">{{ .Params.special_item5_title_gr }}</h3>
+                                    <p class="fst-italic has_lang" lang="en">{{ .Params.special_item5_content1 }}
+                                    <p class="fst-italic has_lang" lang="gr">{{ .Params.special_item5_content1_gr }}
                                     </p>
-                                    <p>{{ .Params.special_item5_content2 }}</p>
+                                    <p class="has_lang" lang="en">{{ .Params.special_item5_content2 }}</p>
+                                    <p class="has_lang" lang="gr">{{ .Params.special_item5_content2_gr }}</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="{{ .Params.special_item5_image }}" alt="{{ .Params.special_item5_name }}" class="img-fluid">
+                                    <img src="{{ .Params.special_item5_image }}" alt="{{ .Params.special_item5_name }}" class="img-fluid has_lang" lang="en">
+                                    <img src="{{ .Params.special_item5_image_gr }}" alt="{{ .Params.special_item5_name_gr }}" class="img-fluid has_lang" lang="gr">
                                 </div>
                             </div>
                         </div>
@@ -317,8 +436,10 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Events</h2>
-                <p>{{ .Params.events_title }}</p>
+                <h2 class="has_lang" lang="en">{{ .Params.events_heading }}</h2>
+                <h2 class="has_lang" lang="gr">{{ .Params.events_heading_gr }}</h2>
+                <p class="has_lang" lang="en">{{ .Params.events_title }}</p>
+                <p class="has_lang" lang="gr">{{ .Params.events_title_gr }}</p>
             </div>
 
             <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -327,48 +448,68 @@
                     <div class="swiper-slide">
                         <div class="row event-item">
                             <div class="col-lg-6">
-                                <img src="{{ .Params.event1_image }}" class="img-fluid" alt="{{ .Params.event1_name }}">
+                                <img src="{{ .Params.event1_image }}" class="img-fluid has_lang" lang="en" alt="{{ .Params.event1_name }}">
+                                <img src="{{ .Params.event1_image_gr }}" class="img-fluid has_lang" lang="gr" alt="{{ .Params.event1_name_gr }}">
                             </div>
                             <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                <h3>{{ .Params.event1_name }}</h3>
+                                <h3 class="has_lang" lang="en">{{ .Params.event1_name }}</h3>
+                                <h3 class="has_lang" lang="gr">{{ .Params.event1_name_gr }}</h3>
                                 <div class="price">
-                                    <p><span>{{ .Params.event1_price }}</span></p>
+                                    <p class="has_lang" lang="en"><span>{{ .Params.event1_price }}</span></p>
+                                    <p class="has_lang" lang="gr"><span>{{ .Params.event1_price_gr }}</span></p>
                                 </div>
-                                <p class="fst-italic">
+                                <p class="fst-italic has_lang" lang="en">
                                     {{ .Params.event1_content1 }}
                                 </p>
-                                <ul>
-                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event1_content2 }}</li>
-                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event1_content3 }}</li>
-                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event1_content4 }}</li>
-                                </ul>
-                                <p>
-                                    {{ .Params.event1_content5 }}
+                                <p class="fst-italic has_lang" lang="gr">
+                                    {{ .Params.event1_content1_gr }}
                                 </p>
+                                <ul>
+                                    <li class="has_lang" lang="en"><i class="bi bi-check-circled"></i> {{ .Params.event1_content2 }}</li>
+                                    <li class="has_lang" lang="gr"><i class="bi bi-check-circled"></i> {{ .Params.event1_content2_gr }}</li>
+                                    <li class="has_lang" lang="en"><i class="bi bi-check-circled"></i> {{ .Params.event1_content3 }}</li>
+                                    <li class="has_lang" lang="gr"><i class="bi bi-check-circled"></i> {{ .Params.event1_content3_gr }}</li>
+                                    <li class="has_lang" lang="en"><i class="bi bi-check-circled"></i> {{ .Params.event1_content4 }}</li>
+                                    <li class="has_lang" lang="gr"><i class="bi bi-check-circled"></i> {{ .Params.event1_content4_gr }}</li>
+                                </ul>
+                                <p class="has_lang" lang="en">{{ .Params.event1_content5 }}</p>
+                                <p class="has_lang" lang="gr">{{ .Params.event1_content5_gr }}</p>
                             </div>
                         </div>
-                    </div><!-- End testimonial item -->
+                    </div>
 
                     <div class="swiper-slide">
                         <div class="row event-item">
                             <div class="col-lg-6">
-                                <img src="{{ .Params.event2_image }}" class="img-fluid" alt="{{ .Params.event2_name }}">
+                                <img src="{{ .Params.event2_image }}" class="img-fluid has_lang" lang="en" alt="{{ .Params.event2_name }}">
+                                <img src="{{ .Params.event2_image_gr }}" class="img-fluid has_lang" lang="gr" alt="{{ .Params.event2_name }}">
                             </div>
                             <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                <h3>{{ .Params.event2_name }}</h3>
+                                <h3 class="has_lang" lang="en">{{ .Params.event2_name }}</h3>
+                                <h3 class="has_lang" lang="gr">{{ .Params.event2_name_gr }}</h3>
                                 <div class="price">
-                                    <p><span>{{ .Params.event2_price }}</span></p>
+                                    <p class="has_lang" lang="en"><span>{{ .Params.event2_price }}</span></p>
+                                    <p class="has_lang" lang="gr"><span>{{ .Params.event2_price_gr }}</span></p>
                                 </div>
-                                <p class="fst-italic">
+                                <p class="fst-italic has_lang" lang="en">
                                     {{ .Params.event2_content1 }}
                                 </p>
+                                <p class="fst-italic has_lang" lang="gr">
+                                    {{ .Params.event2_content1_gr }}
+                                </p>
                                 <ul>
-                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event2_content2 }}</li>
-                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event2_content3 }}</li>
-                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event2_content4 }}</li>
+                                    <li class="has_lang" lang="en"><i class="bi bi-check-circled"></i> {{ .Params.event2_content2 }}</li>
+                                    <li class="has_lang" lang="gr"><i class="bi bi-check-circled"></i> {{ .Params.event2_content2_gr }}</li>
+                                    <li class="has_lang" lang="en"><i class="bi bi-check-circled"></i> {{ .Params.event2_content3 }}</li>
+                                    <li class="has_lang" lang="gr"><i class="bi bi-check-circled"></i> {{ .Params.event2_content3_gr }}</li>
+                                    <li clss="has_lang" lang="en"><i class="bi bi-check-circled"></i> {{ .Params.event2_content4 }}</li>
+                                    <li clss="has_lang" lang="gr"><i class="bi bi-check-circled"></i> {{ .Params.event2_content4_gr }}</li>
                                 </ul>
-                                <p>
+                                <p class="has_lang" lang="en">
                                     {{ .Params.event2_content5 }}
+                                </p>
+                                <p class="has_lang" lang="gr">
+                                    {{ .Params.event2_content5_gr }}
                                 </p>
                             </div>
                         </div>
@@ -377,23 +518,35 @@
                     <div class="swiper-slide">
                         <div class="row event-item">
                             <div class="col-lg-6">
-                                <img src="{{ .Params.event3_image }}" class="img-fluid" alt="{{ .Params.event3_name }}">
+                                <img src="{{ .Params.event3_image }}" class="img-fluid has_lang" lang="en" alt="{{ .Params.event3_name }}">
+                                <img src="{{ .Params.event3_image_gr }}" class="img-fluid has_lang" lang="gr" alt="{{ .Params.event3_name_gr }}">
                             </div>
                             <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                <h3>{{ .Params.event3_name }}</h3>
+                                <h3 class="has_lang" lang="en">{{ .Params.event3_name }}</h3>
+                                <h3 class="has_lang" lang="gr">{{ .Params.event3_name_gr }}</h3>
                                 <div class="price">
-                                    <p><span>{{ .Params.event3_price }}</span></p>
+                                    <p class="has_lang" lang="en"><span>{{ .Params.event3_price }}</span></p>
+                                    <p class="has_lang" lang="gr"><span>{{ .Params.event3_price_gr }}</span></p>
                                 </div>
-                                <p class="fst-italic">
+                                <p class="fst-italic has_lang" lang="en">
                                     {{ .Params.event3_content1 }}
                                 </p>
+                                <p class="fst-italic has_lang" lang="gr">
+                                    {{ .Params.event3_content1_gr }}
+                                </p>
                                 <ul>
-                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event3_content2 }}</li>
-                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event3_content3 }}</li>
-                                    <li><i class="bi bi-check-circled"></i> {{ .Params.event3_content4 }}</li>
+                                    <li class="has_lang" lang="en"><i class="bi bi-check-circled"></i> {{ .Params.event3_content2 }}</li>
+                                    <li class="has_lang" lang="gr"><i class="bi bi-check-circled"></i> {{ .Params.event3_content2_gr }}</li>
+                                    <li class="has_lang" lang="en"><i class="bi bi-check-circled"></i> {{ .Params.event3_content3 }}</li>
+                                    <li class="has_lang" lang="gr"><i class="bi bi-check-circled"></i> {{ .Params.event3_content3_gr }}</li>
+                                    <li class="has_lang" lang="en"><i class="bi bi-check-circled"></i> {{ .Params.event3_content4 }}</li>
+                                    <li class="has_lang" lang="gr"><i class="bi bi-check-circled"></i> {{ .Params.event3_content4_gr }}</li>
                                 </ul>
-                                <p>
+                                <p class="has_lang" lang="en">
                                     {{ .Params.event3_content5 }}
+                                </p>
+                                <p class="has_lang" lang="gr">
+                                    {{ .Params.event3_content5_gr }}
                                 </p>
                             </div>
                         </div>
@@ -411,55 +564,72 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Reservation</h2>
-                <p>Book a Table</p>
+                <h2 class="has_lang" lang="en">{{ .Params.Reservation_title }}</h2>
+                <h2 class="has_lang" lang="gr">{{ .Params.Reservation_title_gr }}</h2>
+                <p class="has_lang" lang="en">{{ .Params.table_book_title }}</p>
+                <p class="has_lang" lang="gr">{{ .Params.table_book_title_gr }}</p>
             </div>
 
             <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up"
                 data-aos-delay="100">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 form-group">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                            data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <input type="text" name="name" class="form-control has_lang" lang="en" id="name" placeholder={{ .Params.name_title_placeholder }}
+                            data-rule="minlen:4" data-msg={{ .Params.data_msg }}>
+                        <input type="text" name="name" class="form-control has_lang" lang="gr" id="name" placeholder={{ .Params.name_title_placeholder_gr }}
+                            data-rule="minlen:4" data-msg={{ .Params.data_msg_gr }}>
                         <div class="validate"></div>
                     </div>
                     <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                            data-rule="email" data-msg="Please enter a valid email">
+                        <input type="email" class="form-control has_lang" lang="en" name="email" id="email" placeholder={{ .Params.email_placeholder }}
+                            data-rule="email" data-msg={{ .Params.data_msg }}>
+                        <input type="email" class="form-control has_lang" lang="gr" name="email" id="email" placeholder={{ .Params.email_placeholder_gr }}
+                            data-rule="email" data-msg={{ .Params.data_msg_gr }}>
                         <div class="validate"></div>
                     </div>
                     <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
-                            data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <input type="text" class="form-control has_lang" lang="en" name="phone" id="phone" placeholder={{ .Params.phone_placeholder }}
+                            data-rule="minlen:4" data-msg={{ .Params.data_msg }}>
+                        <input type="text" class="form-control has_lang" lang="gr" name="phone" id="phone" placeholder={{ .Params.phone_placeholder_gr }}
+                            data-rule="minlen:4" data-msg={{ .Params.data_msg_gr }}>
                         <div class="validate"></div>
                     </div>
                     <div class="col-lg-4 col-md-6 form-group mt-3">
-                        <input type="text" name="date" class="form-control" id="date" placeholder="Date"
-                            data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <input type="text" name="date" class="form-control has_lang" lang="en" id="date" placeholder={{ .Params.date_placeholder }}
+                            data-rule="minlen:4" data-msg={{ .Params.data_msg }}>
+                        <input type="text" name="date" class="form-control has_lang" lang="gr" id="date" placeholder={{ .Params.date_placeholder_gr }}
+                            data-rule="minlen:4" data-msg={{ .Params.data_msg_gr }}>
                         <div class="validate"></div>
                     </div>
                     <div class="col-lg-4 col-md-6 form-group mt-3">
-                        <input type="text" class="form-control" name="time" id="time" placeholder="Time"
-                            data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <input type="text" class="form-control has_lang" lang="en" name="time" id="time" placeholder={{ .Params.time_placeholder }}
+                            data-rule="minlen:4" data-msg={{ .Params.data_msg }}>
+                        <input type="text" class="form-control has_lang" lang="gr" name="time" id="time" placeholder={{ .Params.time_placeholder_gr }}
+                            data-rule="minlen:4" data-msg={{ .Params.data_msg_gr }}>
                         <div class="validate"></div>
                     </div>
                     <div class="col-lg-4 col-md-6 form-group mt-3">
-                        <input type="number" class="form-control" name="people" id="people" placeholder="# of people"
-                            data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                        <input type="number" class="form-control has_lang" lang="en" name="people" id="people" placeholder={{ .Params.people_placeholder }}
+                            data-rule="minlen:1" data-msg={{ .Params.table_data_msg }}>
+                        <input type="number" class="form-control has_lang" lang="gr" name="people" id="people" placeholder={{ .Params.people_placeholder_gr }}
+                            data-rule="minlen:1" data-msg={{ .Params.table_data_msg_gr }}>
                         <div class="validate"></div>
                     </div>
                 </div>
                 <div class="form-group mt-3">
-                    <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                    <textarea class="form-control has_lang" lang="en" name="message" rows="5" placeholder={{ .Params.message_placeholder }}></textarea>
+                    <textarea class="form-control has_lang" lang="gr" name="message" rows="5" placeholder={{ .Params.message_placeholder_gr }}></textarea>
                     <div class="validate"></div>
                 </div>
                 <div class="mb-3">
-                    <div class="loading">Loading</div>
+                    <div class="loading has_lang" lang="en">{{ .Params.loading_msg }}</div>
+                    <div class="loading has_lang" lang="gr">{{ .Params.loading_msg_gr }}</div>
                     <div class="error-message"></div>
-                    <div class="sent-message">Your booking request was sent. We will call back or send an Email to
-                        confirm your reservation. Thank you!</div>
+                    <div class="sent-message has_lang" lang="en">{{ .Params.confirm_msg }}</div>
+                    <div class="sent-message has_lang" lang="gr">{{ .Params.confirm_msg_gr }}</div>
                 </div>
-                <div class="text-center"><button type="submit">Book a Table</button></div>
+                <div class="text-center has_lang" lang="en"><button type="submit">{{ .Params.button_text }}</button></div>
+                <div class="text-center has_lang" lang="gr"><button type="submit">{{ .Params.button_text_gr }}</button></div>
             </form>
 
         </div>
@@ -470,8 +640,10 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Testimonials</h2>
-                <p>{{ .Params.testimonial_title }}</p>
+                <h2 class="has_lang" lang="en">{{ .Params.testimonial_heading }}</h2>
+                <h2 class="has_lang" lang="gr">{{ .Params.testimonial_heading_gr }}</h2>
+                <p class="has_lang" lang="en">{{ .Params.testimonial_title }}</p>
+                <p class="has_lang" lang="gr">{{ .Params.testimonial_title_gr }}</p>
             </div>
 
             <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -479,66 +651,106 @@
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <p>
+                            <p class="has_lang" lang="en">
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                                 {{ .Params.testimonial1_content }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="{{ .Params.testimonial1_image }}" class="testimonial-img" alt="{{ .Params.testimonial1_name }}">
-                            <h3>{{ .Params.testimonial1_name }}</h3>
-                            <h4>{{ .Params.testimonial1_designation }}</h4>
+                            <p class="has_lang" lang="gr">
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                {{ .Params.testimonial1_content_gr }}
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                            <img src="{{ .Params.testimonial1_image }}" class="testimonial-img has_lang" lang="en" alt="{{ .Params.testimonial1_name }}">
+                            <img src="{{ .Params.testimonial1_image_gr }}" class="testimonial-img has_lang" lang="gr" alt="{{ .Params.testimonial1_name_gr }}">
+                            <h3 class="has_lang" lang="en">{{ .Params.testimonial1_name }}</h3>
+                            <h3 class="has_lang" lang="gr">{{ .Params.testimonial1_name_gr }}</h3>
+                            <h4 class="has_lang" lang="en">{{ .Params.testimonial1_designation }}</h4>
+                            <h4 class="has_lang" lang="gr">{{ .Params.testimonial1_designation_gr }}</h4>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <p>
+                            <p class="has_lang" lang="en">
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                                 {{ .Params.testimonial2_content }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="{{ .Params.testimonial2_image }}" class="testimonial-img" alt="{{ .Params.testimonial2_name }}">
-                            <h3>{{ .Params.testimonial2_name }}</h3>
-                            <h4>{{ .Params.testimonial2_designation }}</h4>
+                            <p class="has_lang" lang="gr">
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                {{ .Params.testimonial2_content_gr }}
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                            <img src="{{ .Params.testimonial2_image }}" class="testimonial-img has_lang" lang="en" alt="{{ .Params.testimonial2_name }}">
+                            <img src="{{ .Params.testimonial2_image_gr }}" class="testimonial-img has_lang" lang="gr" alt="{{ .Params.testimonial2_name_gr }}">
+                            <h3 class="has_lang" lang="en">{{ .Params.testimonial2_name }}</h3>
+                            <h3 class="has_lang" lang="gr">{{ .Params.testimonial2_name_gr }}</h3>
+                            <h4 class="has_lang" lang="en">{{ .Params.testimonial2_designation }}</h4>
+                            <h4 class="has_lang" lang="gr">{{ .Params.testimonial2_designation_gr }}</h4>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <p>
+                            <p class="has_lang" lang="en">
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                                 {{ .Params.testimonial3_content }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="{{ .Params.testimonial3_image }}" class="testimonial-img" alt="{{ .Params.testimonial3_name }}">
-                            <h3>{{ .Params.testimonial3_name }}</h3>
-                            <h4>{{ .Params.testimonial3_designation }}</h4>
+                            <p class="has_lang" lang="gr">
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                {{ .Params.testimonial3_content_gr }}
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                            <img src="{{ .Params.testimonial3_image }}" class="testimonial-img has_lang" lang="en" alt="{{ .Params.testimonial3_name }}">
+                            <img src="{{ .Params.testimonial3_image_gr }}" class="testimonial-img has_lang" lang="en" alt="{{ .Params.testimonial3_name_gr }}">
+                            <h3 class="has_lang" lang="en">{{ .Params.testimonial3_name }}</h3>
+                            <h3 class="has_lang" lang="gr">{{ .Params.testimonial3_name_gr }}</h3>
+                            <h4 class="has_lang" lang="en">{{ .Params.testimonial3_designation }}</h4>
+                            <h4 class="has_lang" lang="gr">{{ .Params.testimonial3_designation_gr }}</h4>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <p>
+                            <p class="has_lang" lang="en">
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                                 {{ .Params.testimonial4_content }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="{{ .Params.testimonial4_image }}" class="testimonial-img" alt="{{ .Params.testimonial4_name }}">
-                            <h3>{{ .Params.testimonial4_name }}</h3>
-                            <h4>{{ .Params.testimonial4_designation }}</h4>
+                            <p class="has_lang" lang="gr">
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                {{ .Params.testimonial4_content_gr }}
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                            <img src="{{ .Params.testimonial4_image }}" class="testimonial-img has_lang" lang="en" alt="{{ .Params.testimonial4_name }}">
+                            <img src="{{ .Params.testimonial4_image_gr }}" class="testimonial-img has_lang" lang="en" alt="{{ .Params.testimonial4_name_gr }}">
+                            <h3 class="has_lang" lang="en">{{ .Params.testimonial4_name }}</h3>
+                            <h3 class="has_lang" lang="gr">{{ .Params.testimonial4_name_gr }}</h3>
+                            <h4 class="has_lang" lang="en">{{ .Params.testimonial4_designation }}</h4>
+                            <h4 class="has_lang" lang="gr">{{ .Params.testimonial4_designation_gr }}</h4>
                         </div>
                     </div><!-- End testimonial item -->
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <p>
+                            <p class="has_lang" lang="en">
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                                 {{ .Params.testimonial5_content }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="{{ .Params.testimonial5_image }}" class="testimonial-img" alt="{{ .Params.testimonial5_name }}">
-                            <h3>{{ .Params.testimonial5_name }}</h3>
-                            <h4>{{ .Params.testimonial5_designation }}</h4>
+                            <p class="has_lang" lang="gr">
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                {{ .Params.testimonial5_content_gr }}
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                            <img src="{{ .Params.testimonial5_image }}" class="testimonial-img has_lang" lang="en" alt="{{ .Params.testimonial5_name }}">
+                            <img src="{{ .Params.testimonial5_image_gr }}" class="testimonial-img has_lang" lang="gr" alt="{{ .Params.testimonial5_name_gr }}">
+                            <h3 class="has_lang" lang="en">{{ .Params.testimonial5_name }}</h3>
+                            <h3 class="has_lang" lang="gr">{{ .Params.testimonial5_name_gr }}</h3>
+                            <h4 class="has_lang" lang="en">{{ .Params.testimonial5_designation }}</h4>
+                            <h4 class="has_lang" lang="gr">{{ .Params.testimonial5_designation_gr }}</h4>
                         </div>
                     </div><!-- End testimonial item -->
 
@@ -554,8 +766,10 @@
 
         <div class="container" data-aos="fade-up">
             <div class="section-title">
-                <h2>Gallery</h2>
-                <p>{{ .Params.gallery_title }}</p>
+                <h2 class="has_lang" lang="en">{{ .Params.gallery_heading }}</h2>
+                <h2 class="has_lang" lang="gr">{{ .Params.gallery_heading_gr }}</h2>
+                <p class="has_lang" lang="en">{{ .Params.gallery_title }}</p>
+                <p class="has_lang" lang="gr">{{ .Params.gallery_title_gr }}</p>
             </div>
         </div>
 
@@ -637,19 +851,24 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Chefs</h2>
-                <p>{{ .Params.chefs_title }}</p>
+                <h2 class="has_lang" lang="en">{{ .Params.chefs_heading }}</h2>
+                <h2 class="has_lang" lang="gr">{{ .Params.chefs_heading_gr }}</h2>
+                <p class="has_lang" lang="en">{{ .Params.chefs_title }}</p>
+                <p class="has_lang" lang="gr">{{ .Params.chefs_title_gr }}</p>
             </div>
 
             <div class="row">
 
                 <div class="col-lg-4 col-md-6">
                     <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                        <img src="{{ .Params.chef_1_image_url }}" class="img-fluid" alt="{{ .Params.chef_1_name }}">
+                        <img src="{{ .Params.chef_1_image_url }}" class="img-fluid has_lang" lang="en" alt="{{ .Params.chef_1_name }}">
+                        <img src="{{ .Params.chef_1_image_url_gr }}" class="img-fluid has_lang" lang="gr" alt="{{ .Params.chef_1_name_gr }}">
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4>{{ .Params.chef_1_name }}</h4>
-                                <span>{{ .Params.chef_1_profile }}</span>
+                                <h4 class="has_lang" lang="en">{{ .Params.chef_1_name }}</h4>
+                                <h4 class="has_lang" lang="gr">{{ .Params.chef_1_name_gr }}</h4>
+                                <span class="has_lang" lang="en">{{ .Params.chef_1_profile }}</span>
+                                <span class="has_lang" lang="gr">{{ .Params.chef_1_profile_gr }}</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -666,8 +885,10 @@
                         <img src="{{ .Params.chef_2_image_url }}" class="img-fluid" alt="{{ .Params.chef_2_name }}">
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4>{{ .Params.chef_2_name }}</h4>
-                                <span>{{ .Params.chef_2_profile }}</span>
+                                <h4 class="has_lang" lang="en">{{ .Params.chef_2_name }}</h4>
+                                <h4 class="has_lang" lang="gr">{{ .Params.chef_2_name_gr }}</h4>
+                                <span class="has_lang" lang="en">{{ .Params.chef_2_profile }}</span>
+                                <span class="has_lang" lang="gr">{{ .Params.chef_2_profile_gr }}</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -684,8 +905,10 @@
                         <img src="{{ .Params.chef_3_image_url }}" class="img-fluid" alt="{{ .Params.chef_3_name }}">
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4>{{ .Params.chef_3_name }}</h4>
-                                <span>{{ .Params.chef_3_profile }}</span>
+                                <h4 class="has_lang" lang="en">{{ .Params.chef_3_name }}</h4>
+                                <h4 class="has_lang" lang="gr">{{ .Params.chef_3_name_gr }}</h4>
+                                <span class="has_lang" lang="en">{{ .Params.chef_3_profile }}</span>
+                                <span class="has_lang" lang="gr">{{ .Params.chef_3_profile_gr }}</span>
                             </div>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -707,8 +930,10 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Contact</h2>
-                <p>Contact Us</p>
+                <h2 class="has_lang" lang="en">{{ .Params.contact_us_heading }}</h2>
+                <h2 class="has_lang" lang="gr">{{ .Params.contact_us_heading_gr }}</h2>
+                <p class="has_lang" lang="en">{{ .Params.contact_us_title }}</p>
+                <p class="has_lang" lang="gr">{{ .Params.contact_us_title_gr }}</p>
             </div>
         </div>
 
@@ -792,5 +1017,6 @@
     </section><!-- End Contact Section -->
 
 </main><!-- End #main -->
+
 
 {{ end }}
