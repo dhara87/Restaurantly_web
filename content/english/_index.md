@@ -358,7 +358,6 @@ contact_subject: Subject
 contact_subject_gr: Subject
 contact_msg: Message
 contact_msg_gr: Message
-
 draft: false
 
 ---
