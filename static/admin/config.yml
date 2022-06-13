@@ -412,6 +412,16 @@ collections:
       - { label: "Contact Message", name: "contact_msg", widget: "string" }
       - { label: "Contact Message Greek", name: "contact_msg_gr", widget: "string" }
 
-  
+    # header section
 
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Header Title", name: "header_title", widget: "string" }
+      - { label: "Menu 1", name: "menu_1", widget: "string" }
+      - { label: "Menu 2", name: "menu_2", widget: "string" }
+      - { label: "Menu 3", name: "menu_3", widget: "string" }
+      - { label: "Menu 4", name: "menu_4", widget: "string" }
+      - { label: "Menu 5", name: "menu_5", widget: "string" }
+      - { label: "Menu 6", name: "menu_6", widget: "string" }
+      - { label: "Menu 7", name: "menu_7", widget: "string" }
+      - { label: "Menu 8", name: "menu_8", widget: "string" }
      

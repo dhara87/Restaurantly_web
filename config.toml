@@ -130,13 +130,11 @@ author = ""
 copyright = "© Copyright Restaurantly. All Rights Reserved"
 designdevelop = "Designed & Developed by : [atcults](https://atcults.com/)"
 footer_address = "A108 Adam Street NY 535022, USA"
-clock = ""
 phone = "+1 5589 55488 55"
-facebook = ""
-tollfree = ""
-sms = ""
-Whatsapp = ""
 email = "info@example.com"
+header_phone = "+1 5589 55488 55"
+header_days_time = "Mon-Sat: 11AM - 23PM"
+
 
 ################################### English language #####################################
 [Languages.en]
