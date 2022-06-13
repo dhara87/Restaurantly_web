@@ -175,7 +175,7 @@ collections:
       - { label: "Special Item 3 Name", name: "special_item3_name", widget: "string" }
       - { label: "Special Item 3 Name Greek", name: "special_item3_name_gr", widget: "string" }
       - { label: "Special Item 3 Title", name: "special_item3_title", widget: "string" }
-      - { label: "Special Item 3 Title Greek", name: "special_item3_title_gr, widget: "string" }
+      - { label: "Special Item 3 Title Greek", name: "special_item3_title_gr", widget: "string" }
       - { label: "Special Item 3 Content 1", name: "special_item3_content1", widget: "text" }
       - { label: "Special Item 3 Content 1 Greek", name: "special_item3_content1_gr", widget: "text" }
       - { label: "Special Item 3 Content 2", name: "special_item3_content2", widget: "text" }
