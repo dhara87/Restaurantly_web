@@ -182,7 +182,7 @@ special_item1_content1_gr: Greek Qui laudantium consequatur laborum sit qui ad
 event2_content1_gr: Greek Lorem ipsum dolor sit amet, consectetur adipiscing
   elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 item4_price: $8.95
-header_events: Eventss
+header_events: Events
 gallery_title: Some photos from Our Restaurant
 item2_name: Bread Barrel
 service_graphic_design_gr: GGraphic Design
@@ -190,7 +190,7 @@ banner_subtitle: Delivering great food for more than 18 years!
 whyus_title_gr: Greek Why Choose Our Restaurant
 menu_filter_3: Salads
 footer_link_about: About us
-header_specials: Specialss
+header_specials: Specials
 testimonial1_content: Proin iaculis purus consequat sem cure digni ssim donec
   porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id,
   aliquam eget nibh et. Maecen aliquam, risus at semper.
@@ -260,7 +260,7 @@ service_marketing_gr: GMarketing
 menu_item3_image_gr: /img/menu/cake.jpg
 events_heading_gr: Greek Events
 item8_price: $12.95
-header_logo_text: Restaurentlys
+header_logo_text: Restaurently
 header_about_gr: GAbout
 special_item5_content1_gr: Greek Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
 testimonial2_image: /img/testimonials/testimonials-2.jpg
@@ -296,9 +296,9 @@ chef_2_name: Sarah Jhonson
 event3_name: Custom Parties
 special_item2_name: Unde praesentium sed
 about_content_1_gr: Greek Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-header_home: Homes
+header_home: Home
 special_item1_title: Architecto ut aperiam autem id
-header_menu: Menus
+header_menu: Menu
 gallery_image_url_3: /img/gallery/gallery-3.jpg
 chef_1_name: Walter White
 name_title_placeholder_gr: Enter Your Name Greek
@@ -411,7 +411,7 @@ gallery_image_url_1_gr: /img/gallery/gallery-1.jpg
 about_content_2: Duis aute irure dolor in reprehenderit in voluptate
 contact_us_email: info@example.com
 message_placeholder: Message
-header_chefs: Chefss
+header_chefs: Chefs
 testimonial4_content_gr: Greek Fugiat enim eram quae cillum dolore dolor amet
   nulla culpa multos export minim fugiat minim velit minim dolor enim duis
   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
