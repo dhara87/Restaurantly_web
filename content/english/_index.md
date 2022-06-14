@@ -1,6 +1,7 @@
 ---
 footer_link_home: Home
-footer_service_title_gr: GOur Services
+footer_link_home_gr: GHomes
+footer_service_title_gr: GOur Servicess
 about_subtitle_gr: Greek Lorem ipsum dolor sit amet, consectetur adipiscing
   elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 event1_content1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -60,17 +61,17 @@ item6_name_gr: Greek Mozzarella Stick
 item3_ingredients: A delicate crab cake served on a toasted roll with lettuce and tartar sauce
 item7_ingredients_gr: Greek spinach, crisp romaine, tomatoes, and Greek olives
 people_placeholder: Enter no. of people
-footer_link_privacy_gr: GPrivacy policy
 footer_mobile_gr: +1 5589 55488 55
+footer_link_privacy_gr: GPrivacy policys
 chef_3_profile: Cook
-service_web_development_gr: GWeb Development
+service_web_development_gr: GWeb Developments
 about_title_gr: Greek Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
 item4_ingredients: Lorem, deren, trataro, filede, nerada
 event1_content5: Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
   aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
   fugiat nulla pariatur
 item7_name_gr: Greek Salad
-footer_link_terms_gr: GTerms of service
+footer_link_terms_gr: GTerms of services
 item6_ingredients_gr: Greek Lorem, deren, trataro, filede, nerada
 chefs_title_gr: Greek Our Proffesional Chefs
 chef_1_image_url: /img/chefs/chefs-1.jpg
@@ -78,7 +79,7 @@ chef_3_image_url_gr: /img/chefs/chefs-3.jpg
 item9_name: Spinach Salad
 Reservation_title: Reservation
 item8_name_gr: Greek Lobster Roll
-subscribe_button_text_gr: GSubscribe
+subscribe_button_text_gr: GSubscribes
 chef_2_image_url_gr: /img/chefs/chefs-2.jpg
 chef_2_image_url: /img/chefs/chefs-2.jpg
 subscribe_button_text: Subscribe
@@ -152,7 +153,6 @@ event1_content1_gr: Greek Lorem ipsum dolor sit amet, consectetur adipiscing
 about_subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua.
 footer_service_title: Our Services
-footer_link_home_gr: GHome
 header_gallery_gr: GGallery
 event3_content3_gr: Greek Duis aute irure dolor in reprehenderit in voluptate velit.
 testimonial1_designation: Ceo & Founder
@@ -185,7 +185,7 @@ item4_price: $8.95
 header_events: Events
 gallery_title: Some photos from Our Restaurant
 item2_name: Bread Barrel
-service_graphic_design_gr: GGraphic Design
+service_graphic_design_gr: GGraphic Designs
 banner_subtitle: Delivering great food for more than 18 years!
 whyus_title_gr: Greek Why Choose Our Restaurant
 menu_filter_3: Salads
@@ -217,7 +217,7 @@ contact_subject: Subject
 menu_filter_4: Specialty
 menu_item4_image_gr: /img/menu/caesar.jpg
 name_1_gr: Greek Lorem Ipsum
-service_product_management_gr: GProduct Management
+service_product_management_gr: GProduct Managements
 contact_call_gr: "+8320208288"
 item6_price: $4.95
 table_data_msg_gr: Greek Please enter at least 1 chars
@@ -256,7 +256,7 @@ footer_news_letter: Our Newsletter
 testimonial3_content: Enim nisi quem export duis labore cillum quae magna enim
   sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster
   aute amet eram fore quis sint minim.
-service_marketing_gr: GMarketing
+service_marketing_gr: GMarketings
 menu_item3_image_gr: /img/menu/cake.jpg
 events_heading_gr: Greek Events
 item8_price: $12.95
@@ -352,7 +352,7 @@ gallery_image_url_7: /img/gallery/gallery-7.jpg
 testimonial3_name: Jena Karlis
 gallery_image_url_5_gr: /img/gallery/gallery-5.jpg
 special_item3_image: /img/specials-3.png
-footer_link_service_gr: GServices
+footer_link_service_gr: GServicess
 event2_image_gr: /img/event-private.jpg
 special_item1_image_gr: /img/specials-1.png
 contact_us_title: Contact Us
@@ -367,8 +367,8 @@ special_item3_title_gr: Greek Impedit facilis occaecati odio neque aperiam sit
 contact_us_location: A108 Adam Street, New York, NY 535022
 footer_link_title: Useful Links
 event1_name_gr: Greek Birthday Parties
-newsletter_text_gr: Greek Tamen quem nulla quae legam multos aute sint culpa legam noster magna
-service_web_design_gr: GWeb Design
+service_web_design_gr: GWeb Designs
+newsletter_text_gr: Greek Tamen quem nulla quae legam multos aute sint culpa legam noster magnas
 testimonial2_name: Sara Wilsson
 specials_title_gr: Greek Specials
 gallery_image_url_3_gr: /img/gallery/gallery-3.jpg
@@ -428,7 +428,7 @@ about_content_3: Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
 testimonial3_content_gr: Greek Enim nisi quem export duis labore cillum quae
   magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram
   duis noster aute amet eram fore quis sint minim.
-footer_news_letter_gr: GOur Newsletter
+footer_news_letter_gr: GOur Newsletters
 testimonial1_image_gr: /img/img_20200214_145057.jpg
 events_heading: Events
 menu_item3_image: /img/menu/cake.jpg
@@ -482,7 +482,7 @@ testimonial1_content_gr: Greek Proin iaculis purus consequat sem cure digni ssim
   donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id,
   aliquam eget nibh et. Maecen aliquam, risus at semper.
 header_specials_gr: GSpecials
-footer_link_about_gr: GAbout us
+footer_link_about_gr: GAbout uss
 loading_msg: Loading
 menu_filter_3_gr: Salads
 testimonial3_designation_gr: Greek Store Owner
