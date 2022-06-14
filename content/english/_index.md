@@ -1,7 +1,8 @@
 ---
 footer_link_home: Home
 footer_service_title_gr: GOur Services
-about_subtitle_gr: dhara patel
+about_subtitle_gr: Greek Lorem ipsum dolor sit amet, consectetur adipiscing
+  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 menu_filter_1_gr: All
 item1_price_gr: $5.95
 item1_ingredients: Lorem, deren, trataro, filede, nerada
