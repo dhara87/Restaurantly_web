@@ -1,5 +1,6 @@
 ---
 footer_link_home: Home
+footer_link_home_gr: GHome
 footer_service_title_gr: GOur Services
 about_subtitle_gr: Greek Lorem ipsum dolor sit amet, consectetur adipiscing
   elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -60,8 +61,8 @@ item6_name_gr: Greek Mozzarella Stick
 item3_ingredients: A delicate crab cake served on a toasted roll with lettuce and tartar sauce
 item7_ingredients_gr: Greek spinach, crisp romaine, tomatoes, and Greek olives
 people_placeholder: Enter no. of people
-footer_link_privacy_gr: GPrivacy policy
 footer_mobile_gr: +1 5589 55488 55
+footer_link_privacy_gr: GPrivacy policy
 chef_3_profile: Cook
 service_web_development_gr: GWeb Development
 about_title_gr: Greek Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
@@ -152,7 +153,6 @@ event1_content1_gr: Greek Lorem ipsum dolor sit amet, consectetur adipiscing
 about_subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua.
 footer_service_title: Our Services
-footer_link_home_gr: GHome
 header_gallery_gr: GGallery
 event3_content3_gr: Greek Duis aute irure dolor in reprehenderit in voluptate velit.
 testimonial1_designation: Ceo & Founder
@@ -367,8 +367,8 @@ special_item3_title_gr: Greek Impedit facilis occaecati odio neque aperiam sit
 contact_us_location: A108 Adam Street, New York, NY 535022
 footer_link_title: Useful Links
 event1_name_gr: Greek Birthday Parties
-newsletter_text_gr: Greek Tamen quem nulla quae legam multos aute sint culpa legam noster magna
 service_web_design_gr: GWeb Design
+newsletter_text_gr: Greek Tamen quem nulla quae legam multos aute sint culpa legam noster magna
 testimonial2_name: Sara Wilsson
 specials_title_gr: Greek Specials
 gallery_image_url_3_gr: /img/gallery/gallery-3.jpg
@@ -486,7 +486,7 @@ footer_link_about_gr: GAbout us
 loading_msg: Loading
 menu_filter_3_gr: Salads
 testimonial3_designation_gr: Greek Store Owner
-footer_heading: Restaurantly
+footer_heading: Restaurantly web
 item1_name_gr: Greek Lobster Bisque
 event3_content1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua.
