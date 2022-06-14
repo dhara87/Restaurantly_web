@@ -34,7 +34,7 @@ event1_price: $189
 item2_ingredients: Lorem, deren, trataro, filede, nerada
 phone_placeholder: Your Phone
 menu_item9_image: /img/menu/spinach-salad.jpg
-header_button_text_gr: FBook a table
+header_button_text_gr: FBook a tables
 event1_content3: Duis aute irure dolor in reprehenderit in voluptate velit.
 item8_ingredients_gr: Greek Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
 confirm_msg: Your booking request was sent. We will call back or send an Email
@@ -296,7 +296,7 @@ chef_2_name: Sarah Jhonson
 event3_name: Custom Parties
 special_item2_name: Unde praesentium sed
 about_content_1_gr: Greek Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-header_home: Homeeee
+header_home: Home
 special_item1_title: Architecto ut aperiam autem id
 header_menu: Menu
 gallery_image_url_3: /img/gallery/gallery-3.jpg
