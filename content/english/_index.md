@@ -458,6 +458,8 @@ contact_us_email_gr: dhara@atcults.com
 contact_call: +1 5589 55488 55s
 contact_email: Your Email
 contact_subject_gr: test
+contact_submit_button: Send Message
+contact_submit_button_gr: GSend Message
 header_title: Header
 header_logo_text: Restaurently
 header_logo_text_gr: Restaurently

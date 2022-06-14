@@ -478,5 +478,7 @@ collections:
       - { label: "Contact Subject Greek", name: "contact_subject_gr", widget: "string" }
       - { label: "Contact Message", name: "contact_msg", widget: "string" }
       - { label: "Contact Message Greek", name: "contact_msg_gr", widget: "string" }
+      - { label: "Contact Submit button", name: "contact_submit_button", widget: "string" }
+      - { label: "Contact Submit button Greek", name: "contact_submit_button_gr", widget: "string" }
 
      
