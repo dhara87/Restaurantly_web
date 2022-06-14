@@ -1,6 +1,5 @@
 ---
 footer_link_home: Home
-footer_link_home_gr: GHome
 footer_service_title_gr: GOur Services
 about_subtitle_gr: Greek Lorem ipsum dolor sit amet, consectetur adipiscing
   elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -61,8 +60,8 @@ item6_name_gr: Greek Mozzarella Stick
 item3_ingredients: A delicate crab cake served on a toasted roll with lettuce and tartar sauce
 item7_ingredients_gr: Greek spinach, crisp romaine, tomatoes, and Greek olives
 people_placeholder: Enter no. of people
-footer_mobile_gr: +1 5589 55488 55
 footer_link_privacy_gr: GPrivacy policy
+footer_mobile_gr: +1 5589 55488 55
 chef_3_profile: Cook
 service_web_development_gr: GWeb Development
 about_title_gr: Greek Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
@@ -153,6 +152,7 @@ event1_content1_gr: Greek Lorem ipsum dolor sit amet, consectetur adipiscing
 about_subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua.
 footer_service_title: Our Services
+footer_link_home_gr: GHome
 header_gallery_gr: GGallery
 event3_content3_gr: Greek Duis aute irure dolor in reprehenderit in voluptate velit.
 testimonial1_designation: Ceo & Founder
@@ -182,7 +182,7 @@ special_item1_content1_gr: Greek Qui laudantium consequatur laborum sit qui ad
 event2_content1_gr: Greek Lorem ipsum dolor sit amet, consectetur adipiscing
   elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 item4_price: $8.95
-header_events: Events
+header_events: Eventss
 gallery_title: Some photos from Our Restaurant
 item2_name: Bread Barrel
 service_graphic_design_gr: GGraphic Design
@@ -190,7 +190,7 @@ banner_subtitle: Delivering great food for more than 18 years!
 whyus_title_gr: Greek Why Choose Our Restaurant
 menu_filter_3: Salads
 footer_link_about: About us
-header_specials: Specials
+header_specials: Specialss
 testimonial1_content: Proin iaculis purus consequat sem cure digni ssim donec
   porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id,
   aliquam eget nibh et. Maecen aliquam, risus at semper.
@@ -260,7 +260,7 @@ service_marketing_gr: GMarketing
 menu_item3_image_gr: /img/menu/cake.jpg
 events_heading_gr: Greek Events
 item8_price: $12.95
-header_logo_text: Restaurently
+header_logo_text: Restaurentlys
 header_about_gr: GAbout
 special_item5_content1_gr: Greek Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
 testimonial2_image: /img/testimonials/testimonials-2.jpg
@@ -296,9 +296,9 @@ chef_2_name: Sarah Jhonson
 event3_name: Custom Parties
 special_item2_name: Unde praesentium sed
 about_content_1_gr: Greek Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-header_home: Home
+header_home: Homes
 special_item1_title: Architecto ut aperiam autem id
-header_menu: Menu
+header_menu: Menus
 gallery_image_url_3: /img/gallery/gallery-3.jpg
 chef_1_name: Walter White
 name_title_placeholder_gr: Enter Your Name Greek
@@ -367,8 +367,8 @@ special_item3_title_gr: Greek Impedit facilis occaecati odio neque aperiam sit
 contact_us_location: A108 Adam Street, New York, NY 535022
 footer_link_title: Useful Links
 event1_name_gr: Greek Birthday Parties
-service_web_design_gr: GWeb Design
 newsletter_text_gr: Greek Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+service_web_design_gr: GWeb Design
 testimonial2_name: Sara Wilsson
 specials_title_gr: Greek Specials
 gallery_image_url_3_gr: /img/gallery/gallery-3.jpg
@@ -411,7 +411,7 @@ gallery_image_url_1_gr: /img/gallery/gallery-1.jpg
 about_content_2: Duis aute irure dolor in reprehenderit in voluptate
 contact_us_email: info@example.com
 message_placeholder: Message
-header_chefs: Chefs
+header_chefs: Chefss
 testimonial4_content_gr: Greek Fugiat enim eram quae cillum dolore dolor amet
   nulla culpa multos export minim fugiat minim velit minim dolor enim duis
   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
