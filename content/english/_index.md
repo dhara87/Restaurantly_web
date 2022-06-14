@@ -486,7 +486,7 @@ footer_link_about_gr: GAbout us
 loading_msg: Loading
 menu_filter_3_gr: Salads
 testimonial3_designation_gr: Greek Store Owner
-footer_heading: Restaurantly web
+footer_heading: "Restaurantly "
 item1_name_gr: Greek Lobster Bisque
 event3_content1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua.
