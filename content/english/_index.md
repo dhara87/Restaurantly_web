@@ -379,7 +379,7 @@ contact_us_location_gr: A108 Adam Street, New York, NY 535022
 footer_link_title: Useful Links
 newsletter_text_gr: Greek Tamen quem nulla quae legam multos aute sint culpa legam noster magna
 service_web_design_gr: GWeb Design
-about_image_url: /img/event.jpg
+about_image_url: /static/img/about.jpg
 about_content_1: Ullamco laboris nisi ut aliquip ex ea commodo consequat.
 about_content_2: Duis aute irure dolor in reprehenderit in voluptate
 about_content_3: Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
