@@ -41,25 +41,46 @@
     <div
       class="container-fluid container-xl d-flex align-items-center justify-content-lg-between"
     >
-      <h1 class="logo me-auto me-lg-0">
-        <a href="index.html">Restaurantly</a>
+      <h1 class="logo me-auto me-lg-0 has_lang" lang="en">
+        <a href="index.html">{{ .Params.header_logo_text}}</a>
+      </h1>
+     
+      <h1 class="logo me-auto me-lg-0 has_lang" lang="gr">
+        <a href="index.html">{{ .Params.header_logo_text_gr}}</a>
       </h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto active" href="{{ site.BaseURL | relLangURL }}">{{ site.Params.Home }}</a></li>
+          <!-- <ul>
+          <li><a class="nav-link scrollto active" href="#{{ site.BaseURL | relLangURL }}">{{ site.Params.Home }}</a></li>
           {{ range .Site.Menus.main }}
-          <li><a class="nav-link scrollto" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          <li><a class="nav-link scrollto" href="#{{ .URL | relLangURL }}">{{ .Name }}</a></li>
           {{ end }}
+        </ul>   -->
+        <ul>
+          <li><a class="nav-link scrollto active has_lang" lang="en" href="#">{{ .Params.header_home }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="gr" href="#">{{ .Params.header_home_gr }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="en" href="#about">{{ .Params.header_about }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="gr" href="#about">{{ .Params.header_about_gr }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="en" href="#menu">{{ .Params.header_menu }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="gr" href="#menu">{{ .Params.header_menu_gr }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="en" href="#specials">{{ .Params.header_specials }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="gr" href="#specials">{{ .Params.header_specials_gr }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="en" href="#events">{{ .Params.header_events }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="gr" href="#events">{{ .Params.header_events_gr }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="en" href="#chefs">{{ .Params.header_chefs }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="gr" href="#chefs">{{ .Params.header_chefs_gr }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="en" href="#gallery">{{ .Params.header_gallery }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="gr" href="#gallery">{{ .Params.header_gallery_gr }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="en" href="#contact">{{ .Params.header_contact }}</a></li>
+          <li><a class="nav-link scrollto active has_lang" lang="gr" href="#contact">{{ .Params.header_contact_gr }}</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
       <!-- .navbar -->
-      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex"
-        >Book a table</a
-      >
+      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex has_lang" lang="en">{{ .Params.header_button_text}}</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex has_lang" lang="gr">{{ .Params.header_button_text_gr}}</a>
     </div>
   </header>
 

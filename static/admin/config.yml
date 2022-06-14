@@ -3,21 +3,88 @@ backend:
   branch: master
 media_folder: "static/img"
 collections:
-  - name: "index" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "index" # Used in the UI, ie.: "New Post"
-    folder: "content/english" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-   
+  - name: "Header"
+    label: "Header"
+    folder: "content/english"
+    create: false
+    fields:
+      - { label: "Header Title", name: "header_title", widget: "string" }
+      - { label: "Header Logo Text", name: "header_logo_text", widget: "string" }
+      - { label: "Header Logo Text Greek", name: "header_logo_text_gr", widget: "string" }
+      - { label: "Header Home", name: "header_home", widget: "string" }
+      - { label: "Header Home Greek", name: "header_home_gr", widget: "string" }
+      - { label: "Header Menu", name: "header_menu", widget: "string" }
+      - { label: "Header Menu Greek", name: "header_menu_gr", widget: "string" }
+      - { label: "Header Specials", name: "header_specials", widget: "string" }
+      - { label: "Header Specials Greek", name: "header_specials_gr", widget: "string" }
+      - { label: "Header Event", name: "header_events", widget: "string" }
+      - { label: "Header Event Greek", name: "header_events_gr", widget: "string" }
+      - { label: "Header Chefs", name: "header_chefs", widget: "string" }
+      - { label: "Header Chefs Greek", name: "header_chefs_gr", widget: "string" }
+      - { label: "Header Gallery", name: "header_gallery", widget: "string" }
+      - { label: "Header Gallery Greek", name: "header_gallery_gr", widget: "string" }
+      - { label: "Header About", name: "header_about", widget: "string" }
+      - { label: "Header About Greek", name: "header_about_gr", widget: "string" }
+      - { label: "Header Contact", name: "header_contact", widget: "string" }
+      - { label: "Header Contact Greek", name: "header_contact_gr", widget: "string" }
+      - { label: "Header Button Text", name: "header_button_text", widget: "string" }
+      - { label: "Header Button Text Greek", name: "header_button_text_gr", widget: "string" }
+      
+  - name: "Footer"
+    label: "Footer"
+    folder: "content/english"
+    create: false
+    fields:
+    # banner
+      - { label: "Footer Title", name: "footer_title", widget: "string" }
+      - { label: "Footer Heading", name: "footer_heading", widget: "string" }
+      - { label: "Footer Heading Greek", name: "footer_heading_gr", widget: "string" }
+      - { label: "Footer Address", name: "footer_address", widget: "string" }
+      - { label: "Footer Address Greek", name: "footer_address_gr", widget: "string" }
+      - { label: "Footer Mobile", name: "footer_mobile", widget: "string" }
+      - { label: "Footer Mobile Greek", name: "footer_mobile_gr", widget: "string" }
+      - { label: "Footer Email", name: "footer_email", widget: "string" }
+      - { label: "Footer Email Greek", name: "footer_email_gr", widget: "string" }
+      - { label: "Footer Link Title", name: "footer_link_title", widget: "string" }
+      - { label: "Footer Link Title Greek", name: "footer_link_title_gr", widget: "string" }
+      - { label: "Footer Link Home", name: "footer_link_home", widget: "string" }
+      - { label: "Footer Link Home Greek", name: "footer_link_home_gr", widget: "string" }
+      - { label: "Footer Link About", name: "footer_link_about", widget: "string" }
+      - { label: "Footer Link About Greek", name: "footer_link_about_gr", widget: "string" }
+      - { label: "Footer Link Services", name: "footer_link_service", widget: "string" }
+      - { label: "Footer Link Services Greek", name: "footer_link_service_gr", widget: "string" }
+      - { label: "Footer Link Terms", name: "footer_link_terms", widget: "string" }
+      - { label: "Footer Link Terms Greek", name: "footer_link_terms_gr", widget: "string" }
+      - { label: "Footer Link Privacy", name: "footer_link_privacy", widget: "string" }
+      - { label: "Footer Link Privacy Greek", name: "footer_link_privacy_gr", widget: "string" }
+      - { label: "Footer Service Title", name: "footer_service_title", widget: "string" }
+      - { label: "Footer Service Title Greek", name: "footer_service_title_gr", widget: "string" }
+      - { label: "Service Web Design", name: "service_web_design", widget: "string" }
+      - { label: "Service Web Design Greek", name: "service_web_design_gr", widget: "string" }
+      - { label: "Service Web Development", name: "service_web_development", widget: "string" }
+      - { label: "Service Web Development Greek", name: "service_web_development_gr", widget: "string" }
+      - { label: "Service Product Managent", name: "service_product_management", widget: "string" }
+      - { label: "Service Product Managent Greek", name: "service_product_management_gr", widget: "string" }
+      - { label: "Service Marketing", name: "service_marketing", widget: "string" }
+      - { label: "Service Marketing Greek", name: "service_marketing_gr", widget: "string" }
+      - { label: "Service Graphic Design", name: "service_graphic_design", widget: "string" }
+      - { label: "Service Graphic Design Greek", name: "service_graphic_design_gr", widget: "string" }
+      - { label: "Footer News Latter", name: "footer_news_letter", widget: "string" }
+      - { label: "Footer News Latter Greek", name: "footer_news_letter_gr", widget: "string" }
+      - { label: "News Latter Text", name: "newsletter_text", widget: "string" }
+      - { label: "News Latter Text Greek", name: "newsletter_text_gr", widget: "string" }
+      - { label: "Subscribe Button Text", name: "subscribe_button_text", widget: "string" }
+      - { label: "Subscribe Button Text Greek", name: "subscribe_button_text_gr", widget: "string" }
+
+  - name: "index"
+    label: "index"
+    folder: "content/english"
+    create: false
+    fields:
     # banner
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Banner Title", name: "banner_title", widget: "string" }
       - { label: "Banner Title Greek", name: "banner_title_gr", widget: "string" }
-      - { label: "Banner Sub Title", name: "banner_subtitle", widget: "string" }
-      - { label: "Banner Sub Title Greek", name: "banner_subtitle_gr", widget: "string" }
-      - { label: "Banner YouTube Link", name: "banner_youtube_link", widget: "string" }
-      - { label: "Banner YouTube Link Greek", name: "banner_youtube_link_gr", widget: "string" }
-   
     # about
       - { label: "About image URL", name: "about_image_url", widget: "image" }
       - { label: "About image URL Greek", name: "about_image_url_gr", widget: "image" }
@@ -412,16 +479,4 @@ collections:
       - { label: "Contact Message", name: "contact_msg", widget: "string" }
       - { label: "Contact Message Greek", name: "contact_msg_gr", widget: "string" }
 
-    # header section
-
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Header Title", name: "header_title", widget: "string" }
-      - { label: "Menu 1", name: "menu_1", widget: "string" }
-      - { label: "Menu 2", name: "menu_2", widget: "string" }
-      - { label: "Menu 3", name: "menu_3", widget: "string" }
-      - { label: "Menu 4", name: "menu_4", widget: "string" }
-      - { label: "Menu 5", name: "menu_5", widget: "string" }
-      - { label: "Menu 6", name: "menu_6", widget: "string" }
-      - { label: "Menu 7", name: "menu_7", widget: "string" }
-      - { label: "Menu 8", name: "menu_8", widget: "string" }
      

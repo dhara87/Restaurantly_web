@@ -458,4 +458,64 @@ contact_us_email_gr: dhara@atcults.com
 contact_call: +1 5589 55488 55s
 contact_email: Your Email
 contact_subject_gr: test
+header_title: Header
+header_logo_text: Restaurently
+header_logo_text_gr: Restaurently
+header_home: Home
+header_home_gr: GHome
+header_menu: Menu
+header_menu_gr: GMenu
+header_specials: Specials    
+header_specials_gr: GSpecials    
+header_events: Events
+header_events_gr: GEvents
+header_chefs: Chefs
+header_chefs_gr: GChefs
+header_gallery: Gallery
+header_gallery_gr: GGallery
+header_about: About
+header_about_gr: GAbout
+header_contact: Contact
+header_contact_gr: GContact
+header_button_text: Book a table
+header_button_text_gr: FBook a table
+footer_title: Footer
+footer_heading: Restaurantly
+footer_heading_gr: GRestaurantly
+footer_address: A108 Adam Street NY 535022, USA
+footer_address_gr: GA108 Adam Street NY 535022, USA
+footer_mobile: +1 5589 55488 55
+footer_mobile_gr: +1 5589 55488 55
+footer_email: info@example.com
+footer_email_gr: ginfo@example.com
+footer_link_title: Useful Links
+footer_link_title_gr: GUseful Links
+footer_link_home: Home
+footer_link_home_gr: GHome
+footer_link_about: About us
+footer_link_about_gr: GAbout us
+footer_link_service: Services
+footer_link_service_gr: GServices
+footer_link_terms: Terms of service
+footer_link_terms_gr: GTerms of service
+footer_link_privacy: Privacy policy
+footer_link_privacy_gr: GPrivacy policy
+footer_service_title: Our Services
+footer_service_title_gr: GOur Services
+service_web_design: Web Design
+service_web_design_gr: GWeb Design
+service_web_development: Web Development
+service_web_development_gr: GWeb Development
+service_product_management: Product Management
+service_product_management_gr: GProduct Management
+service_marketing: Marketing
+service_marketing_gr: GMarketing
+service_graphic_design: Graphic Design
+service_graphic_design_gr: GGraphic Design
+footer_news_letter: Our Newsletter
+footer_news_letter_gr: GOur Newsletter
+newsletter_text: Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+newsletter_text_gr: Greek Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+subscribe_button_text: Subscribe
+subscribe_button_text_gr: GSubscribe
 ---
