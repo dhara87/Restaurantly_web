@@ -15,17 +15,17 @@
 
       <div class="languages d-none d-md-flex align-items-center">
         
-		<ul>
-			<li onclick="changeLanguage('en')"><a>en</a></li>
-			<li onclick="changeLanguage('gr')"><a>gr</a></li>
-			</ul>
+	
+        <span style="margin-bottom: 5px;" onclick="changeLanguage('en')"><a>en</a></span> &nbsp; &nbsp;
+        <label class="switch">
+          <!-- <span class="enLang">en</span> -->
+          <input type="checkbox" id="langCheckBox" onclick="changeLanguage()">
+          <span class="slider round"></span>
+          </label> &nbsp; &nbsp;
+        <span style="margin-bottom: 5px;" onclick="changeLanguage('gr')"><a>gr</a></span> &nbsp; &nbsp;
+			
 
-			&nbsp;&nbsp;&nbsp;
-			<label class="switch">
-				<!-- <span class="enLang">en</span> -->
-				<input type="checkbox" id="langCheckBox" onclick="changeLanguage()">
-				<span class="slider round"></span>
-			  </label>
+			
        
 		<!-- <ul>
           {{ range $.Site.Home.AllTranslations }}
