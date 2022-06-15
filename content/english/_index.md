@@ -480,7 +480,7 @@ header_about_gr: GAbout
 header_contact: Contact
 header_contact_gr: GContact
 header_button_text: Book a table
-header_button_text_gr: FBook a table
+header_button_text_gr: GBook a table
 footer_title: Footer
 footer_heading: Restaurantly
 footer_heading_gr: GRestaurantly
