@@ -25,7 +25,20 @@
         <span style="margin-bottom: 5px;" onclick="changeLanguage('gr')"><a>gr</a></span> &nbsp; &nbsp;
 			
 
-			
+        {{/*  <html>
+          <body>
+          
+          <form action="/action_page.php">
+            <label for="languages">Choose Language:</label>
+            <select name="languages" id="languages">
+              <option onclick="changeLanguage('en')" value="english">English</option>
+              <option onclick="changeLanguage('gr')" value="greek">Greek</option>
+            </select>
+            <br><br>
+          </form>
+          
+          </body>
+          </html>  */}}
        
 		<!-- <ul>
           {{ range $.Site.Home.AllTranslations }}
@@ -86,6 +99,7 @@
 
   <script>
     function changeLanguage(e) {
+      alert()
       if (e) {
         if (e == "en") {
           localStorage.setItem("language", "en");
